@@ -295,12 +295,14 @@
             this.portuguêsToolStripMenuItem.Name = "portuguêsToolStripMenuItem";
             this.portuguêsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.portuguêsToolStripMenuItem.Text = "Português";
+            this.portuguêsToolStripMenuItem.Click += new System.EventHandler(this.portuguêsToolStripMenuItem_Click);
             // 
             // inglêsToolStripMenuItem
             // 
             this.inglêsToolStripMenuItem.Name = "inglêsToolStripMenuItem";
             this.inglêsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.inglêsToolStripMenuItem.Text = "Inglês";
+            this.inglêsToolStripMenuItem.Click += new System.EventHandler(this.inglêsToolStripMenuItem_Click);
             // 
             // fundoToolStripMenuItem
             // 
@@ -458,7 +460,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Jogo do galo";
+            this.Text = "Jogo do galo V 3.0 H";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

@@ -15,6 +15,7 @@ namespace Jogo_galo
         int cont=0;
         int jog=0;
         int venc=0;
+        int ling = 0;
         public Form1()
         {
             InitializeComponent();
@@ -2464,12 +2465,18 @@ namespace Jogo_galo
 
         private void v10ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Versão 1.0\n-Primeira release\n :)\n","changelog");
+            if (ling == 0)
+            {
+                MessageBox.Show("Versão 1.0\n-Primeira release\n :)\n", "changelog");
+            }
         }
 
         private void vToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Versão 2.0\n-Adicionado menu(com poucas funcões)\n:|", "changelog");
+            if (ling == 0)
+            {
+                MessageBox.Show("Versão 2.0\n-Adicionado menu(com poucas funcões)\n:|", "changelog");
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -2620,7 +2627,70 @@ namespace Jogo_galo
 
         private void v30ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Versão 3.0\n-Temas a funcionar\n :)\n", "changelog");
+            if (ling == 0)
+            {
+                MessageBox.Show("Versão 3.0\n-Temas a funcionar\n-Tradução smi-completa\n :)\n", "changelog");
+            }
+        }
+
+        private void portuguêsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            jogoToolStripMenuItem.Text = "Jogo";
+            novoJogoToolStripMenuItem.Text = "Novo jogo";
+            riniciarToolStripMenuItem.Text = "riniciar";
+            sairToolStripMenuItem.Text = "Sair";
+            temasToolStripMenuItem.Text = "Temas";
+            fundoToolStripMenuItem.Text = "Fundo";
+            tabuleiroToolStripMenuItem.Text = "Tabuleiro";
+            azulToolStripMenuItem.Text = "Azul";
+            azulToolStripMenuItem1.Text = "Azul";
+            brancoToolStripMenuItem.Text = "Preto";
+            brancoToolStripMenuItem1.Text = "Branco";
+            verdeToolStripMenuItem.Text = "Verde";
+            verdeToolStripMenuItem1.Text = "Verde";
+            amareloToolStripMenuItem.Text = "Amarelo";
+            amareloToolStripMenuItem1.Text = "Amarelo";
+            laranjaToolStripMenuItem.Text = "LaranJa";
+            laranjaToolStripMenuItem1.Text = "Laranja";
+            rosaToolStripMenuItem.Text = "Rosa";
+            rosaToolStripMenuItem1.Text = "Rosa";
+            originalToolStripMenuItem.Text = "Original";
+            originalToolStripMenuItem1.Text = "Original";
+            linguagensToolStripMenuItem.Text = "Linguagem";
+            portuguêsToolStripMenuItem.Text = "Português";
+            inglêsToolStripMenuItem.Text = "Inglês";
+            contraHumanoToolStripMenuItem.Text = "Contra Humanos";
+            ling = 0;
+        }
+
+        private void inglêsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            jogoToolStripMenuItem.Text = "Game";
+            novoJogoToolStripMenuItem.Text = "New game";
+            riniciarToolStripMenuItem.Text = "Restart";
+            sairToolStripMenuItem.Text = "Exit";
+            temasToolStripMenuItem.Text = "Themes";
+            fundoToolStripMenuItem.Text = "Background";
+            tabuleiroToolStripMenuItem.Text = "Board";
+            azulToolStripMenuItem.Text = "Blue";
+            azulToolStripMenuItem1.Text = "Blue";
+            brancoToolStripMenuItem.Text = "Black";
+            brancoToolStripMenuItem1.Text = "Black";
+            verdeToolStripMenuItem.Text = "Green";
+            verdeToolStripMenuItem1.Text = "Green";
+            amareloToolStripMenuItem.Text = "Yellow";
+            amareloToolStripMenuItem1.Text = "Yellow";
+            laranjaToolStripMenuItem.Text = "Orange";
+            laranjaToolStripMenuItem1.Text = "Orange";
+            rosaToolStripMenuItem.Text = "Pink";
+            rosaToolStripMenuItem1.Text = "Pink";
+            originalToolStripMenuItem.Text = "Original";
+            originalToolStripMenuItem1.Text = "Original";
+            linguagensToolStripMenuItem.Text = "Language";
+            portuguêsToolStripMenuItem.Text = "Portugese";
+            inglêsToolStripMenuItem.Text = "English";
+            contraHumanoToolStripMenuItem.Text = "VS Humans";
+            ling = 1;
         }
     }
 }
