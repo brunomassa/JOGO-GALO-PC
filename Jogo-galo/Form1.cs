@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Jogo_galo.Properties;
 
 namespace Jogo_galo
 {
@@ -2660,6 +2661,8 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Português";
             inglêsToolStripMenuItem.Text = "Inglês";
             contraHumanoToolStripMenuItem.Text = "Contra Humanos";
+            inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
+            portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
             ling = 0;
         }
 
@@ -2690,6 +2693,8 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Portugese";
             inglêsToolStripMenuItem.Text = "English";
             contraHumanoToolStripMenuItem.Text = "VS Humans";
+            inglêsToolStripMenuItem.CheckState = CheckState.Checked;
+            portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             ling = 1;
         }
     }
