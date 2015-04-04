@@ -41,10 +41,24 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.jogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.novoJogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.riniciarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contraHumanoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.temasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.linguagensToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.changelogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.v10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.portuguêsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inglêsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -164,6 +178,109 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.jogoToolStripMenuItem,
+            this.temasToolStripMenuItem,
+            this.linguagensToolStripMenuItem,
+            this.changelogToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(431, 24);
+            this.menuStrip1.TabIndex = 13;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // jogoToolStripMenuItem
+            // 
+            this.jogoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.novoJogoToolStripMenuItem,
+            this.riniciarToolStripMenuItem,
+            this.sairToolStripMenuItem});
+            this.jogoToolStripMenuItem.Name = "jogoToolStripMenuItem";
+            this.jogoToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.jogoToolStripMenuItem.Text = "Jogo";
+            // 
+            // novoJogoToolStripMenuItem
+            // 
+            this.novoJogoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.contraHumanoToolStripMenuItem});
+            this.novoJogoToolStripMenuItem.Name = "novoJogoToolStripMenuItem";
+            this.novoJogoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.novoJogoToolStripMenuItem.Text = "Novo Jogo";
+            // 
+            // riniciarToolStripMenuItem
+            // 
+            this.riniciarToolStripMenuItem.Name = "riniciarToolStripMenuItem";
+            this.riniciarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.riniciarToolStripMenuItem.Text = "Riniciar";
+            this.riniciarToolStripMenuItem.Click += new System.EventHandler(this.riniciarToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // contraHumanoToolStripMenuItem
+            // 
+            this.contraHumanoToolStripMenuItem.Name = "contraHumanoToolStripMenuItem";
+            this.contraHumanoToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.contraHumanoToolStripMenuItem.Text = "contra Humano";
+            this.contraHumanoToolStripMenuItem.Click += new System.EventHandler(this.contraHumanoToolStripMenuItem_Click);
+            // 
+            // temasToolStripMenuItem
+            // 
+            this.temasToolStripMenuItem.Name = "temasToolStripMenuItem";
+            this.temasToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.temasToolStripMenuItem.Text = "Temas";
+            // 
+            // linguagensToolStripMenuItem
+            // 
+            this.linguagensToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.portuguêsToolStripMenuItem,
+            this.inglêsToolStripMenuItem});
+            this.linguagensToolStripMenuItem.Name = "linguagensToolStripMenuItem";
+            this.linguagensToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.linguagensToolStripMenuItem.Text = "Linguagens";
+            // 
+            // changelogToolStripMenuItem
+            // 
+            this.changelogToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.v10ToolStripMenuItem,
+            this.vToolStripMenuItem});
+            this.changelogToolStripMenuItem.Name = "changelogToolStripMenuItem";
+            this.changelogToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.changelogToolStripMenuItem.Text = "changelog";
+            // 
+            // v10ToolStripMenuItem
+            // 
+            this.v10ToolStripMenuItem.Name = "v10ToolStripMenuItem";
+            this.v10ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.v10ToolStripMenuItem.Text = "V 1.0";
+            this.v10ToolStripMenuItem.Click += new System.EventHandler(this.v10ToolStripMenuItem_Click);
+            // 
+            // vToolStripMenuItem
+            // 
+            this.vToolStripMenuItem.Name = "vToolStripMenuItem";
+            this.vToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.vToolStripMenuItem.Text = "V 2.0";
+            this.vToolStripMenuItem.Click += new System.EventHandler(this.vToolStripMenuItem_Click);
+            // 
+            // portuguêsToolStripMenuItem
+            // 
+            this.portuguêsToolStripMenuItem.Name = "portuguêsToolStripMenuItem";
+            this.portuguêsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.portuguêsToolStripMenuItem.Text = "Português";
+            // 
+            // inglêsToolStripMenuItem
+            // 
+            this.inglêsToolStripMenuItem.Name = "inglêsToolStripMenuItem";
+            this.inglêsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.inglêsToolStripMenuItem.Text = "Inglês";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -182,14 +299,21 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Jogo do galo";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -208,6 +332,19 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem jogoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem novoJogoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contraHumanoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem riniciarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem temasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem linguagensToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem changelogToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem v10ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem vToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem portuguêsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inglêsToolStripMenuItem;
     }
 }
 

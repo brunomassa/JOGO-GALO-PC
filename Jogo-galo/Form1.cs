@@ -2424,5 +2424,63 @@ namespace Jogo_galo
                 }
             }
         }
+
+        private void riniciarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+            button9.Text = "";
+
+            button1.Enabled = true;
+            button2.Enabled = true;
+            button3.Enabled = true;
+            button4.Enabled = true;
+            button5.Enabled = true;
+            button6.Enabled = true;
+            button7.Enabled = true;
+            button8.Enabled = true;
+            button9.Enabled = true;
+            cont = 0;
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           DialogResult saida= MessageBox.Show("Deseja mesmo sair?", "Sair", MessageBoxButtons.YesNo);
+           if (saida == DialogResult.Yes)
+           {
+               Application.Exit();
+           }
+           else
+           {
+
+           }
+        }
+
+        private void v10ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Versão 1.0\n-Primeira release","changelog");
+        }
+
+        private void vToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Versão 2.0\n-Adicionado menu(com poucas funcões)\n", "changelog");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            contraHumanoToolStripMenuItem.CheckState = CheckState.Checked;
+            portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
+        }
+
+        private void contraHumanoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
