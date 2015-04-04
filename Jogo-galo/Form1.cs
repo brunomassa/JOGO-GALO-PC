@@ -2464,12 +2464,12 @@ namespace Jogo_galo
 
         private void v10ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Versão 1.0\n-Primeira release","changelog");
+            MessageBox.Show("Versão 1.0\n-Primeira release\n :)\n","changelog");
         }
 
         private void vToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Versão 2.0\n-Adicionado menu(com poucas funcões)\n", "changelog");
+            MessageBox.Show("Versão 2.0\n-Adicionado menu(com poucas funcões)\n:|", "changelog");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -2481,6 +2481,146 @@ namespace Jogo_galo
         private void contraHumanoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void azulToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Aquamarine;
+        }
+
+        private void brancoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Black;
+        }
+
+        private void verdeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Green;
+        }
+
+        private void amareloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Yellow;
+        }
+
+        private void laranjaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Orange;
+        }
+
+        private void rosaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Pink;
+        }
+
+        private void azulToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.Aquamarine;
+            pictureBox2.BackColor = Color.Aquamarine;
+            pictureBox3.BackColor = Color.Aquamarine;
+            pictureBox4.BackColor = Color.Aquamarine;
+            azulToolStripMenuItem1.CheckState = CheckState.Checked;
+            rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+        }
+
+        private void originalToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.Black;
+            pictureBox2.BackColor = Color.Black;
+            pictureBox3.BackColor = Color.Black;
+            pictureBox4.BackColor = Color.Black;
+            azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            originalToolStripMenuItem1.CheckState = CheckState.Checked;
+            verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+        }
+
+        private void verdeToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.Green;
+            pictureBox2.BackColor = Color.Green;
+            pictureBox3.BackColor = Color.Green;
+            pictureBox4.BackColor = Color.Green;
+            azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            verdeToolStripMenuItem1.CheckState = CheckState.Checked;
+            amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+        }
+
+        private void amareloToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.Yellow;
+            pictureBox2.BackColor = Color.Yellow;
+            pictureBox3.BackColor = Color.Yellow;
+            pictureBox4.BackColor = Color.Yellow;
+            azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            amareloToolStripMenuItem1.CheckState = CheckState.Checked;
+            laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+        }
+
+        private void laranjaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.Orange;
+            pictureBox2.BackColor = Color.Orange;
+            pictureBox3.BackColor = Color.Orange;
+            pictureBox4.BackColor = Color.Orange;
+            azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            laranjaToolStripMenuItem1.CheckState = CheckState.Checked;
+            brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+        }
+
+        private void rosaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.Pink;
+            pictureBox2.BackColor = Color.Pink;
+            pictureBox3.BackColor = Color.Pink;
+            pictureBox4.BackColor = Color.Pink;
+            azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            rosaToolStripMenuItem1.CheckState = CheckState.Checked;
+            originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+        }
+
+        private void brancoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.White;
+            pictureBox2.BackColor = Color.White;
+            pictureBox3.BackColor = Color.White;
+            pictureBox4.BackColor = Color.White;
+            azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            brancoToolStripMenuItem1.CheckState = CheckState.Checked;
+        }
+
+        private void v30ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Versão 3.0\n-Temas a funcionar\n :)\n", "changelog");
         }
     }
 }
