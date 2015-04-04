@@ -28,6 +28,10 @@ namespace Jogo_galo
                 button1.Enabled = false;
                 jog = 1;
                 cont = cont + 1;
+                if (button1.Text == "O" && button2.Text == "O" && button3.Text == "O")
+                {
+                    MessageBox.Show("Jogador 1 Ganha");
+                }
             }
             else if (jog == 1)
             {
