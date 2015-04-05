@@ -3769,7 +3769,7 @@ namespace Jogo_galo
             }
             venc = Settings.Default.svenc;
             jog = Settings.Default.sjog;
-            if (Settings.Default.sjog == 0)
+            if (jog == 0)
             {
                 if (ling == 0)
                 {
@@ -3780,7 +3780,7 @@ namespace Jogo_galo
                     label1.Text = "Player 1 its your turn";
                 }
             }
-            else if (Settings.Default.sjog == 1)
+            else if (jog == 1)
             {
                 if (ling == 0)
                 {
@@ -3972,9 +3972,18 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Português";
             inglêsToolStripMenuItem.Text = "Inglês";
             contraHumanoToolStripMenuItem.Text = "Contra Humanos";
+            label4.Text = "Jogo do galo v 5.0.2 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
             ling = 0;
+            if (jog == 0)
+            {
+                label1.Text = "Jogador 1 é a sua vez";
+            }
+            else if (jog == 1)
+            {
+                label1.Text = "Jogador 2 é a sua vez";
+            }
         }
 
         private void inglêsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -4004,9 +4013,18 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Portugese";
             inglêsToolStripMenuItem.Text = "English";
             contraHumanoToolStripMenuItem.Text = "VS Humans";
+            label4.Text = "TicTac Toe V 5.0.2 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Checked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             ling = 1;
+            if (jog == 0)
+            {
+              label1.Text = "Player 1 its your turn";  
+            }
+            else if (jog == 1)
+            {
+              label1.Text = "Player 2 its your turn";
+            }
         }
 
         private void v40ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -4018,6 +4036,139 @@ namespace Jogo_galo
             else if (ling == 1)
             {
                 MessageBox.Show("Version 4.0\n-About 99% of taduction\n-Game save process if nobody win\n :)\n", "changelog");
+            }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            if (ling == 0)
+            {
+                DialogResult saida = MessageBox.Show("Deseja mesmo sair?", "Sair", MessageBoxButtons.YesNo);
+                if (saida == DialogResult.Yes)
+                {
+                    if (venc == 0)
+                    {
+                        Settings.Default["btn1"] = button1.Text;
+                        Settings.Default["btn2"] = button2.Text;
+                        Settings.Default["btn3"] = button3.Text;
+                        Settings.Default["btn4"] = button4.Text;
+                        Settings.Default["btn5"] = button5.Text;
+                        Settings.Default["btn6"] = button6.Text;
+                        Settings.Default["btn7"] = button7.Text;
+                        Settings.Default["btn8"] = button8.Text;
+                        Settings.Default["btn9"] = button9.Text;
+                        Settings.Default["svenc"] = venc;
+                        Settings.Default["sjog"] = jog;
+                        Settings.Default["btn1e"] = button1.Enabled.ToString();
+                        Settings.Default["btn2e"] = button2.Enabled.ToString();
+                        Settings.Default["btn3e"] = button3.Enabled.ToString();
+                        Settings.Default["btn4e"] = button4.Enabled.ToString();
+                        Settings.Default["btn5e"] = button5.Enabled.ToString();
+                        Settings.Default["btn6e"] = button6.Enabled.ToString();
+                        Settings.Default["btn7e"] = button7.Enabled.ToString();
+                        Settings.Default["btn8e"] = button8.Enabled.ToString();
+                        Settings.Default["btn9e"] = button9.Enabled.ToString();
+                        Settings.Default.Save();
+                        Application.Exit();
+                    }
+                    else if (venc == 1)
+                    {
+                        Settings.Default["btn1"] = "";
+                        Settings.Default["btn2"] = "";
+                        Settings.Default["btn3"] = "";
+                        Settings.Default["btn4"] = "";
+                        Settings.Default["btn5"] = "";
+                        Settings.Default["btn6"] = "";
+                        Settings.Default["btn7"] = "";
+                        Settings.Default["btn8"] = "";
+                        Settings.Default["btn9"] = "";
+                        Settings.Default["svenc"] = 0;
+                        Settings.Default["sjog"] = jog;
+                        Settings.Default["btn1e"] = "";
+                        Settings.Default["btn2e"] = "";
+                        Settings.Default["btn3e"] = "";
+                        Settings.Default["btn4e"] = "";
+                        Settings.Default["btn5e"] = "";
+                        Settings.Default["btn6e"] = "";
+                        Settings.Default["btn7e"] = "";
+                        Settings.Default["btn8e"] = "";
+                        Settings.Default["btn9e"] = "";
+                        Settings.Default.Save();
+                        Application.Exit();
+                    }
+                }
+                else
+                {
+
+                }
+            }
+            if (ling == 1)
+            {
+                MessageBoxManager.OK = "Yeas";
+                MessageBoxManager.Cancel = "No";
+                MessageBoxManager.Register();
+                DialogResult saida = MessageBox.Show("Do you want to exit?", "Exit", MessageBoxButtons.OKCancel);
+                MessageBoxManager.Unregister();
+                if (saida == DialogResult.OK)
+                {
+                    Application.Exit();
+                }
+                else
+                {
+
+                }
+            }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void originalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.White;
+        }
+
+        private void label3_Enter(object sender, EventArgs e)
+        {
+            label3.BackColor = Color.Blue;
+        }
+
+        private void label3_Leave(object sender, EventArgs e)
+        {
+            label3.BackColor = Color.Transparent;
+        }
+
+        private void label3_MouseEnter(object sender, EventArgs e)
+        {
+            label3.BackColor = Color.Cyan;
+        }
+
+        private void label3_MouseLeave(object sender, EventArgs e)
+        {
+            label3.BackColor = Color.Transparent;
+        }
+
+        private void label2_MouseEnter(object sender, EventArgs e)
+        {
+            label2.BackColor = Color.OrangeRed;
+        }
+
+        private void label2_MouseLeave(object sender, EventArgs e)
+        {
+            label2.BackColor = Color.Transparent;
+        }
+
+        private void v50502ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ling == 0)
+            {
+                MessageBox.Show("Versão 5.0/5.0.2\n-Tradução a 100%\n-Novo Design\n :)\n", "changelog");
+            }
+            else if (ling == 1)
+            {
+                MessageBox.Show("Version 5.0/5.0.2\n- 100% of taduction\n-New Design\n :)\n", "changelog");
             }
         }
     }

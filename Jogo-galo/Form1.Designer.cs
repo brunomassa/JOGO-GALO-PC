@@ -73,6 +73,10 @@
             this.v30ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.v40ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.v50502ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -83,7 +87,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 254);
+            this.pictureBox1.Location = new System.Drawing.Point(14, 293);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(368, 12);
             this.pictureBox1.TabIndex = 0;
@@ -92,7 +96,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 155);
+            this.pictureBox2.Location = new System.Drawing.Point(14, 194);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(372, 12);
             this.pictureBox2.TabIndex = 1;
@@ -101,7 +105,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox3.Location = new System.Drawing.Point(114, 81);
+            this.pictureBox3.Location = new System.Drawing.Point(116, 120);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(12, 279);
             this.pictureBox3.TabIndex = 2;
@@ -110,7 +114,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox4.Location = new System.Drawing.Point(270, 81);
+            this.pictureBox4.Location = new System.Drawing.Point(272, 120);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(12, 279);
             this.pictureBox4.TabIndex = 3;
@@ -118,7 +122,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 81);
+            this.button1.Location = new System.Drawing.Point(14, 120);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(96, 68);
             this.button1.TabIndex = 4;
@@ -127,7 +131,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(150, 81);
+            this.button2.Location = new System.Drawing.Point(152, 120);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(96, 68);
             this.button2.TabIndex = 5;
@@ -136,7 +140,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(288, 81);
+            this.button3.Location = new System.Drawing.Point(290, 120);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(96, 68);
             this.button3.TabIndex = 6;
@@ -145,7 +149,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(12, 173);
+            this.button4.Location = new System.Drawing.Point(14, 212);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(96, 68);
             this.button4.TabIndex = 7;
@@ -154,7 +158,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(150, 180);
+            this.button5.Location = new System.Drawing.Point(152, 219);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(96, 68);
             this.button5.TabIndex = 8;
@@ -163,7 +167,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(284, 173);
+            this.button6.Location = new System.Drawing.Point(286, 212);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(96, 68);
             this.button6.TabIndex = 9;
@@ -172,7 +176,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(12, 272);
+            this.button7.Location = new System.Drawing.Point(14, 311);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(96, 68);
             this.button7.TabIndex = 10;
@@ -181,7 +185,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(150, 272);
+            this.button8.Location = new System.Drawing.Point(152, 311);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(96, 68);
             this.button8.TabIndex = 11;
@@ -190,7 +194,7 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(284, 272);
+            this.button9.Location = new System.Drawing.Point(286, 311);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(96, 68);
             this.button9.TabIndex = 12;
@@ -200,14 +204,15 @@
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.jogoToolStripMenuItem,
             this.temasToolStripMenuItem,
             this.linguagensToolStripMenuItem,
             this.changelogToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 45);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(431, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(353, 24);
             this.menuStrip1.TabIndex = 13;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -270,7 +275,7 @@
             this.rosaToolStripMenuItem,
             this.originalToolStripMenuItem});
             this.fundoToolStripMenuItem.Name = "fundoToolStripMenuItem";
-            this.fundoToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.fundoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.fundoToolStripMenuItem.Text = "Fundo";
             // 
             // azulToolStripMenuItem
@@ -318,8 +323,9 @@
             // originalToolStripMenuItem
             // 
             this.originalToolStripMenuItem.Name = "originalToolStripMenuItem";
-            this.originalToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.originalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.originalToolStripMenuItem.Text = "Original";
+            this.originalToolStripMenuItem.Click += new System.EventHandler(this.originalToolStripMenuItem_Click);
             // 
             // tabuleiroToolStripMenuItem
             // 
@@ -413,7 +419,8 @@
             this.v10ToolStripMenuItem,
             this.vToolStripMenuItem,
             this.v30ToolStripMenuItem,
-            this.v40ToolStripMenuItem});
+            this.v40ToolStripMenuItem,
+            this.v50502ToolStripMenuItem});
             this.changelogToolStripMenuItem.Name = "changelogToolStripMenuItem";
             this.changelogToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.changelogToolStripMenuItem.Text = "changelog";
@@ -449,18 +456,65 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(180, 46);
+            this.label1.Location = new System.Drawing.Point(182, 85);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 14;
-            this.label1.Text = "label1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(389, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(17, 16);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "X";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label2.MouseEnter += new System.EventHandler(this.label2_MouseEnter);
+            this.label2.MouseLeave += new System.EventHandler(this.label2_MouseLeave);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(370, 6);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(16, 16);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "_";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Enter += new System.EventHandler(this.label3_Enter);
+            this.label3.Leave += new System.EventHandler(this.label3_Leave);
+            this.label3.MouseEnter += new System.EventHandler(this.label3_MouseEnter);
+            this.label3.MouseLeave += new System.EventHandler(this.label3_MouseLeave);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(149, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(172, 16);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "Jogo do galo V 5.0.2 LP";
+            // 
+            // v50502ToolStripMenuItem
+            // 
+            this.v50502ToolStripMenuItem.Name = "v50502ToolStripMenuItem";
+            this.v50502ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.v50502ToolStripMenuItem.Text = "V 5.0/5.0.2";
+            this.v50502ToolStripMenuItem.Click += new System.EventHandler(this.v50502ToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(431, 392);
+            this.ClientSize = new System.Drawing.Size(415, 426);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -476,11 +530,11 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Jogo do galo V 4.0 IS";
+            this.Text = "Jogo do galo V 5.0.2 LP";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -540,6 +594,10 @@
         private System.Windows.Forms.ToolStripMenuItem brancoToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem v40ToolStripMenuItem;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ToolStripMenuItem v50502ToolStripMenuItem;
     }
 }
 
