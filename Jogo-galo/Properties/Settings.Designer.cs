@@ -262,5 +262,29 @@ namespace Jogo_galo.Properties {
                 this["sjog"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int thf {
+            get {
+                return ((int)(this["thf"]));
+            }
+            set {
+                this["thf"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int tht {
+            get {
+                return ((int)(this["tht"]));
+            }
+            set {
+                this["tht"] = value;
+            }
+        }
     }
 }

@@ -17,6 +17,8 @@ namespace Jogo_galo
         int jog=0;
         int venc=0;
         int ling = 0;
+        int temaf = 0;
+        int temat = 0;
         public Form1()
         {
             InitializeComponent();
@@ -3634,6 +3636,8 @@ namespace Jogo_galo
                         Settings.Default["btn7e"] = button7.Enabled.ToString();
                         Settings.Default["btn8e"] = button8.Enabled.ToString();
                         Settings.Default["btn9e"] = button9.Enabled.ToString();
+                        Settings.Default["thf"] = temaf;
+                        Settings.Default["tht"] = temat;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -3659,6 +3663,8 @@ namespace Jogo_galo
                         Settings.Default["btn7e"] = "";
                         Settings.Default["btn8e"] = "";
                         Settings.Default["btn9e"] = "";
+                        Settings.Default["thf"] = temaf;
+                        Settings.Default["tht"] = temat;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -3793,6 +3799,183 @@ namespace Jogo_galo
                     label1.Text = "Player 2 its your turn";
                 }
             }
+            temaf = Settings.Default.thf;
+            if (temaf == 0)
+            {
+                this.BackColor = Color.White;
+                azulToolStripMenuItem.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem.CheckState = CheckState.Checked;
+            }
+            else if (temaf == 1)
+            {
+                this.BackColor = Color.Aquamarine;
+                azulToolStripMenuItem.CheckState = CheckState.Checked;
+                brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem.CheckState = CheckState.Unchecked;
+            }
+            else if (temaf == 2)
+            {
+                this.BackColor = Color.Black;
+                azulToolStripMenuItem.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem.CheckState = CheckState.Checked;
+                verdeToolStripMenuItem.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem.CheckState = CheckState.Unchecked;
+            }
+            else if (temaf == 3)
+            {
+                this.BackColor = Color.Green;
+                azulToolStripMenuItem.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem.CheckState = CheckState.Checked;
+                amareloToolStripMenuItem.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem.CheckState = CheckState.Unchecked;
+            }
+            else if (temaf == 4)
+            {
+                this.BackColor = Color.Yellow;
+                azulToolStripMenuItem.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem.CheckState = CheckState.Checked;
+                laranjaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem.CheckState = CheckState.Unchecked;
+            }
+            else if (temaf == 5)
+            {
+                this.BackColor = Color.Orange;
+                azulToolStripMenuItem.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem.CheckState = CheckState.Checked;
+                rosaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem.CheckState = CheckState.Unchecked;
+            }
+            else if (temaf == 6)
+            {
+                this.BackColor = Color.Pink;
+                azulToolStripMenuItem.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem.CheckState = CheckState.Checked;
+                originalToolStripMenuItem.CheckState = CheckState.Unchecked;
+            }
+            temat = Settings.Default.tht;
+            if (temat == 0)
+            {
+                pictureBox1.BackColor = Color.Black;
+                pictureBox2.BackColor = Color.Black;
+                pictureBox3.BackColor = Color.Black;
+                pictureBox4.BackColor = Color.Black;
+                azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem1.CheckState = CheckState.Checked;
+                verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            }
+            else if (temat == 1)
+            {
+                pictureBox1.BackColor = Color.Aquamarine;
+                pictureBox2.BackColor = Color.Aquamarine;
+                pictureBox3.BackColor = Color.Aquamarine;
+                pictureBox4.BackColor = Color.Aquamarine;
+                azulToolStripMenuItem1.CheckState = CheckState.Checked;
+                rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            }
+            else if (temat == 2)
+            {
+                pictureBox1.BackColor = Color.Green;
+                pictureBox2.BackColor = Color.Green;
+                pictureBox3.BackColor = Color.Green;
+                pictureBox4.BackColor = Color.Green;
+                azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem1.CheckState = CheckState.Checked;
+                amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            }
+            else if (temat == 3)
+            {
+                pictureBox1.BackColor = Color.Yellow;
+                pictureBox2.BackColor = Color.Yellow;
+                pictureBox3.BackColor = Color.Yellow;
+                pictureBox4.BackColor = Color.Yellow;
+                azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem1.CheckState = CheckState.Checked;
+                laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            }
+            else if (temat == 4)
+            {
+                pictureBox1.BackColor = Color.Orange;
+                pictureBox2.BackColor = Color.Orange;
+                pictureBox3.BackColor = Color.Orange;
+                pictureBox4.BackColor = Color.Orange;
+                azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem1.CheckState = CheckState.Checked;
+                brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            }
+            else if (temat == 5)
+            {
+                pictureBox1.BackColor = Color.Pink;
+                pictureBox2.BackColor = Color.Pink;
+                pictureBox3.BackColor = Color.Pink;
+                pictureBox4.BackColor = Color.Pink;
+                azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem1.CheckState = CheckState.Checked;
+                originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem1.CheckState = CheckState.Unchecked;
+            }
+            else if (temat == 6)
+            {
+                pictureBox1.BackColor = Color.White;
+                pictureBox2.BackColor = Color.White;
+                pictureBox3.BackColor = Color.White;
+                pictureBox4.BackColor = Color.White;
+                azulToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                rosaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                originalToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                verdeToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                amareloToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                laranjaToolStripMenuItem1.CheckState = CheckState.Unchecked;
+                brancoToolStripMenuItem1.CheckState = CheckState.Checked;
+            }
         }
 
         private void contraHumanoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -3802,6 +3985,7 @@ namespace Jogo_galo
 
         private void azulToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            temaf = 1;
             this.BackColor = Color.Aquamarine;
             azulToolStripMenuItem.CheckState = CheckState.Checked;
             brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -3814,6 +3998,7 @@ namespace Jogo_galo
 
         private void brancoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            temaf = 2;
             this.BackColor = Color.Black;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
             brancoToolStripMenuItem.CheckState = CheckState.Checked;
@@ -3826,6 +4011,7 @@ namespace Jogo_galo
 
         private void verdeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            temaf = 3;
             this.BackColor = Color.Green;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
             brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -3838,6 +4024,7 @@ namespace Jogo_galo
 
         private void amareloToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            temaf = 4;
             this.BackColor = Color.Yellow;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
             brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -3850,6 +4037,7 @@ namespace Jogo_galo
 
         private void laranjaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            temaf = 5;
             this.BackColor = Color.Orange;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
             brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -3862,6 +4050,7 @@ namespace Jogo_galo
 
         private void rosaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            temaf = 6;
             this.BackColor = Color.Pink;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
             brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -3874,6 +4063,7 @@ namespace Jogo_galo
 
         private void azulToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            temat = 1;
             pictureBox1.BackColor = Color.Aquamarine;
             pictureBox2.BackColor = Color.Aquamarine;
             pictureBox3.BackColor = Color.Aquamarine;
@@ -3889,6 +4079,7 @@ namespace Jogo_galo
 
         private void originalToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            temat = 0;
             pictureBox1.BackColor = Color.Black;
             pictureBox2.BackColor = Color.Black;
             pictureBox3.BackColor = Color.Black;
@@ -3904,6 +4095,7 @@ namespace Jogo_galo
 
         private void verdeToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            temat = 2;
             pictureBox1.BackColor = Color.Green;
             pictureBox2.BackColor = Color.Green;
             pictureBox3.BackColor = Color.Green;
@@ -3919,6 +4111,7 @@ namespace Jogo_galo
 
         private void amareloToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            temat = 3;
             pictureBox1.BackColor = Color.Yellow;
             pictureBox2.BackColor = Color.Yellow;
             pictureBox3.BackColor = Color.Yellow;
@@ -3934,6 +4127,7 @@ namespace Jogo_galo
 
         private void laranjaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            temat = 4;
             pictureBox1.BackColor = Color.Orange;
             pictureBox2.BackColor = Color.Orange;
             pictureBox3.BackColor = Color.Orange;
@@ -3949,6 +4143,7 @@ namespace Jogo_galo
 
         private void rosaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            temat = 5;
             pictureBox1.BackColor = Color.Pink;
             pictureBox2.BackColor = Color.Pink;
             pictureBox3.BackColor = Color.Pink;
@@ -3964,6 +4159,7 @@ namespace Jogo_galo
 
         private void brancoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            temat = 6;
             pictureBox1.BackColor = Color.White;
             pictureBox2.BackColor = Color.White;
             pictureBox3.BackColor = Color.White;
@@ -4112,6 +4308,8 @@ namespace Jogo_galo
                         Settings.Default["btn7e"] = button7.Enabled.ToString();
                         Settings.Default["btn8e"] = button8.Enabled.ToString();
                         Settings.Default["btn9e"] = button9.Enabled.ToString();
+                        Settings.Default["thf"] = temaf;
+                        Settings.Default["tht"] = temat;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4137,6 +4335,8 @@ namespace Jogo_galo
                         Settings.Default["btn7e"] = "";
                         Settings.Default["btn8e"] = "";
                         Settings.Default["btn9e"] = "";
+                        Settings.Default["thf"] = temaf;
+                        Settings.Default["tht"] = temat;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4171,6 +4371,7 @@ namespace Jogo_galo
 
         private void originalToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            temaf = 0;
             this.BackColor = Color.White;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
             brancoToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -4215,11 +4416,11 @@ namespace Jogo_galo
         {
             if (ling == 0)
             {
-                MessageBox.Show("Versão 5.0/5.0.2\n-Tradução a 100%\n-Novo Design\n :)\n", "changelog");
+                MessageBox.Show("Versão 5.0/5.0.2\n-Tradução a 100%\n-Novo Design\n-Jogo guarda o tema escolhido\n :)\n", "changelog");
             }
             else if (ling == 1)
             {
-                MessageBox.Show("Version 5.0/5.0.2\n- 100% of taduction\n-New Design\n :)\n", "changelog");
+                MessageBox.Show("Version 5.0/5.0.2\n- 100% of taduction\n-New Design\n-Game save the picked out theme\n :)\n", "changelog");
             }
         }
     }
