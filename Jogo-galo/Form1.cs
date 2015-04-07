@@ -13,11 +13,17 @@ namespace Jogo_galo
 {
     public partial class Form1 : Form
     {
+        //variavél conta jogadas
         int cont=0;
+        //variavél vez do jogador
         int jog=0;
+        //variavél de vencedor
         int venc=0;
+        //variavél de linguagem
         int ling = 0;
+        //variavél de tema fundo
         int temaf = 0;
+        //variavél de tema tabuleiro
         int temat = 0;
         public Form1()
         {
@@ -26,6 +32,7 @@ namespace Jogo_galo
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //butao casa numro 1
             if (jog == 0)
             {
                 if (ling == 0)
@@ -415,6 +422,7 @@ namespace Jogo_galo
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //butao casa numero 2
             if (jog == 0)
             {
                 if (ling == 0)
@@ -811,6 +819,7 @@ namespace Jogo_galo
 
         private void button3_Click(object sender, EventArgs e)
         {
+            //butao casa numero 3
             if (jog == 0)
             {
                 if (ling == 0)
@@ -1207,6 +1216,7 @@ namespace Jogo_galo
 
         private void button4_Click(object sender, EventArgs e)
         {
+            //butao casa numero 4
             if (jog == 0)
             {
                 if (ling == 0)
@@ -1603,6 +1613,7 @@ namespace Jogo_galo
 
         private void button5_Click(object sender, EventArgs e)
         {
+            //butao casa numero 5
             if (jog == 0)
             {
                 if (ling == 0)
@@ -2000,6 +2011,7 @@ namespace Jogo_galo
 
         private void button6_Click(object sender, EventArgs e)
         {
+            //butao casa numero 6
             if (jog == 0)
             {
                 if (ling == 0)
@@ -2396,6 +2408,7 @@ namespace Jogo_galo
 
         private void button7_Click(object sender, EventArgs e)
         {
+            //butao casa numero 7
             if (jog == 0)
             {
                 if (ling == 0)
@@ -2793,6 +2806,7 @@ namespace Jogo_galo
 
         private void button8_Click(object sender, EventArgs e)
         {
+            //butao casa numero 8
             if (jog == 0)
             {
                 if (ling == 0)
@@ -3189,6 +3203,7 @@ namespace Jogo_galo
 
         private void button9_Click(object sender, EventArgs e)
         {
+            //butao casa numero 9
             if (jog == 0)
             {
                 if (ling == 0)
@@ -3585,6 +3600,7 @@ namespace Jogo_galo
 
         private void riniciarToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //menu opção reiniciar
             button1.Text = "";
             button2.Text = "";
             button3.Text = "";
@@ -3609,6 +3625,7 @@ namespace Jogo_galo
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //menu opção sair
             if (ling == 0)
             {
                 DialogResult saida = MessageBox.Show("Deseja mesmo sair?", "Sair", MessageBoxButtons.YesNo);
@@ -3694,6 +3711,7 @@ namespace Jogo_galo
 
         private void v10ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //changelog versão 1.0
             if (ling == 0)
             {
                 MessageBox.Show("Versão 1.0\n-Primeira release\n :)\n", "changelog");
@@ -3710,6 +3728,7 @@ namespace Jogo_galo
 
         private void vToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //changelog versão 2.0
             if (ling == 0)
             {
                 MessageBox.Show("Versão 2.0\n-Adicionado menu(com poucas funcões)\n:|", "changelog");
@@ -3739,6 +3758,7 @@ namespace Jogo_galo
             button7.Text = Settings.Default.btn7;
             button8.Text = Settings.Default.btn8;
             button9.Text = Settings.Default.btn9;
+            //condições para ajustar o jogo ao processo guardado
             if (Settings.Default.btn1e == "False")
             {
                 button1.Enabled = false;
@@ -3799,6 +3819,7 @@ namespace Jogo_galo
                     label1.Text = "Player 2 its your turn";
                 }
             }
+            //tema fundo
             temaf = Settings.Default.thf;
             if (temaf == 0)
             {
@@ -3877,6 +3898,7 @@ namespace Jogo_galo
                 rosaToolStripMenuItem.CheckState = CheckState.Checked;
                 originalToolStripMenuItem.CheckState = CheckState.Unchecked;
             }
+            //tema tabuleiro
             temat = Settings.Default.tht;
             if (temat == 0)
             {
@@ -3980,11 +4002,14 @@ namespace Jogo_galo
 
         private void contraHumanoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            //contra-humanos
+            //Ainda não feito
+            //para possivél junção a jogo contra o computador
         }
 
         private void azulToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //tema fundo azul
             temaf = 1;
             this.BackColor = Color.Aquamarine;
             azulToolStripMenuItem.CheckState = CheckState.Checked;
@@ -3998,6 +4023,7 @@ namespace Jogo_galo
 
         private void brancoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //tema fundo preto
             temaf = 2;
             this.BackColor = Color.Black;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -4011,6 +4037,7 @@ namespace Jogo_galo
 
         private void verdeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //tema fundo verde
             temaf = 3;
             this.BackColor = Color.Green;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -4024,6 +4051,7 @@ namespace Jogo_galo
 
         private void amareloToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //tema fundo amarelo
             temaf = 4;
             this.BackColor = Color.Yellow;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -4037,6 +4065,7 @@ namespace Jogo_galo
 
         private void laranjaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //tema fundo laranja
             temaf = 5;
             this.BackColor = Color.Orange;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -4050,6 +4079,7 @@ namespace Jogo_galo
 
         private void rosaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //tema fundo rosa
             temaf = 6;
             this.BackColor = Color.Pink;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -4063,6 +4093,7 @@ namespace Jogo_galo
 
         private void azulToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            //tema tabuleiro azul
             temat = 1;
             pictureBox1.BackColor = Color.Aquamarine;
             pictureBox2.BackColor = Color.Aquamarine;
@@ -4079,6 +4110,7 @@ namespace Jogo_galo
 
         private void originalToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            //tema tabuleiro original
             temat = 0;
             pictureBox1.BackColor = Color.Black;
             pictureBox2.BackColor = Color.Black;
@@ -4095,6 +4127,7 @@ namespace Jogo_galo
 
         private void verdeToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            //tema tabuleiro verde
             temat = 2;
             pictureBox1.BackColor = Color.Green;
             pictureBox2.BackColor = Color.Green;
@@ -4111,6 +4144,7 @@ namespace Jogo_galo
 
         private void amareloToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            //tema tabuleiro amarelo
             temat = 3;
             pictureBox1.BackColor = Color.Yellow;
             pictureBox2.BackColor = Color.Yellow;
@@ -4127,6 +4161,7 @@ namespace Jogo_galo
 
         private void laranjaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            //tema tabuleiro laranja
             temat = 4;
             pictureBox1.BackColor = Color.Orange;
             pictureBox2.BackColor = Color.Orange;
@@ -4143,6 +4178,7 @@ namespace Jogo_galo
 
         private void rosaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            //tema tabuleiro rosa
             temat = 5;
             pictureBox1.BackColor = Color.Pink;
             pictureBox2.BackColor = Color.Pink;
@@ -4159,6 +4195,7 @@ namespace Jogo_galo
 
         private void brancoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            //tema tabuleiro branco
             temat = 6;
             pictureBox1.BackColor = Color.White;
             pictureBox2.BackColor = Color.White;
@@ -4175,6 +4212,7 @@ namespace Jogo_galo
 
         private void v30ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //chagelog versão 3.0
             if (ling == 0)
             {
                 MessageBox.Show("Versão 3.0\n-Temas a funcionar\n-Tradução smi-completa\n :)\n", "changelog");
@@ -4187,6 +4225,7 @@ namespace Jogo_galo
 
         private void portuguêsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //linguagem português
             jogoToolStripMenuItem.Text = "Jogo";
             novoJogoToolStripMenuItem.Text = "Novo jogo";
             riniciarToolStripMenuItem.Text = "riniciar";
@@ -4228,6 +4267,7 @@ namespace Jogo_galo
 
         private void inglêsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //linguagem Inglês
             jogoToolStripMenuItem.Text = "Game";
             novoJogoToolStripMenuItem.Text = "New game";
             riniciarToolStripMenuItem.Text = "Restart";
@@ -4269,6 +4309,7 @@ namespace Jogo_galo
 
         private void v40ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //changelog versão 4.0
             if (ling == 0)
             {
                 MessageBox.Show("Versão 4.0\n-Tradução a 99%\n-Jogo guarda processo se nao ouver vencedor\n :)\n", "changelog");
@@ -4281,6 +4322,7 @@ namespace Jogo_galo
 
         private void label2_Click(object sender, EventArgs e)
         {
+            //botão fechar
             if (ling == 0)
             {
                 DialogResult saida = MessageBox.Show("Deseja mesmo sair?", "Sair", MessageBoxButtons.YesNo);
@@ -4366,11 +4408,13 @@ namespace Jogo_galo
 
         private void label3_Click(object sender, EventArgs e)
         {
+            //butão minimizar
             this.WindowState = FormWindowState.Minimized;
         }
 
         private void originalToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //tema fundo original
             temaf = 0;
             this.BackColor = Color.White;
             azulToolStripMenuItem.CheckState = CheckState.Unchecked;
@@ -4394,26 +4438,31 @@ namespace Jogo_galo
 
         private void label3_MouseEnter(object sender, EventArgs e)
         {
+            //efeito hover no butao minimizar
             label3.BackColor = Color.Cyan;
         }
 
         private void label3_MouseLeave(object sender, EventArgs e)
         {
+            //efeito mouse leave no butao minimizar
             label3.BackColor = Color.Transparent;
         }
 
         private void label2_MouseEnter(object sender, EventArgs e)
         {
+            //efeito hover no butão fechar
             label2.BackColor = Color.OrangeRed;
         }
 
         private void label2_MouseLeave(object sender, EventArgs e)
         {
+            //efeito mouse leave no butão fechar
             label2.BackColor = Color.Transparent;
         }
 
         private void v50502ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //changelog versão 5.0/5.0.2
             if (ling == 0)
             {
                 MessageBox.Show("Versão 5.0/5.0.2\n-Tradução a 100%\n-Novo Design\n-Jogo guarda o tema escolhido\n :)\n", "changelog");
