@@ -59,11 +59,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!","Vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!","Winner");
                     }
                     venc = 1;
                     
@@ -80,11 +80,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!","Vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!","Winner");
                     }
                     venc = 1;
                 }
@@ -100,11 +100,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!","vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!","Winner");
                     }
                     venc = 1;
                 }
@@ -120,11 +120,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -140,11 +140,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -160,11 +160,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -180,11 +180,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -200,11 +200,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -249,11 +249,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -270,11 +270,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -291,11 +291,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -312,11 +312,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -333,11 +333,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -354,11 +354,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -375,11 +375,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -396,11 +396,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -450,11 +450,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -471,11 +471,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -492,11 +492,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -513,11 +513,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -534,11 +534,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -555,11 +555,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -576,11 +576,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -597,11 +597,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -646,11 +646,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -667,11 +667,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -688,11 +688,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -709,11 +709,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -730,11 +730,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -751,11 +751,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -772,11 +772,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -793,11 +793,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -847,11 +847,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -868,11 +868,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -889,11 +889,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -910,11 +910,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -931,11 +931,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -952,11 +952,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -973,11 +973,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -994,11 +994,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1043,11 +1043,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1064,11 +1064,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1085,11 +1085,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1106,11 +1106,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1127,11 +1127,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1148,11 +1148,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1169,11 +1169,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1190,11 +1190,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1244,11 +1244,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1265,11 +1265,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1286,11 +1286,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1307,11 +1307,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1328,11 +1328,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1349,11 +1349,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1370,11 +1370,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1391,11 +1391,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1440,11 +1440,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1461,11 +1461,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1482,11 +1482,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1503,11 +1503,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1524,11 +1524,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1545,11 +1545,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1566,11 +1566,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1587,11 +1587,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1641,11 +1641,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1662,11 +1662,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1683,11 +1683,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1704,11 +1704,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1725,11 +1725,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1746,11 +1746,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1767,11 +1767,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1788,11 +1788,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1837,11 +1837,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1858,11 +1858,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1879,11 +1879,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1900,11 +1900,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1921,11 +1921,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1942,11 +1942,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1963,11 +1963,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -1984,11 +1984,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     
                     venc = 1;
@@ -2039,11 +2039,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2060,11 +2060,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2081,11 +2081,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2102,11 +2102,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2123,11 +2123,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2144,11 +2144,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2165,11 +2165,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2186,11 +2186,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2235,11 +2235,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2256,11 +2256,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2277,11 +2277,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2298,11 +2298,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2319,11 +2319,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2340,11 +2340,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2361,11 +2361,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2382,11 +2382,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2436,11 +2436,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2457,11 +2457,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2478,11 +2478,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2499,11 +2499,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2520,11 +2520,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2541,11 +2541,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2562,11 +2562,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2583,11 +2583,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2633,11 +2633,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2654,11 +2654,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2675,11 +2675,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2696,11 +2696,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2717,11 +2717,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2738,11 +2738,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2759,11 +2759,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2780,11 +2780,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2834,11 +2834,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2855,11 +2855,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2876,11 +2876,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2897,11 +2897,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2918,11 +2918,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2939,11 +2939,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2960,11 +2960,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -2981,11 +2981,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3030,11 +3030,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3051,11 +3051,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3072,11 +3072,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3093,11 +3093,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3114,11 +3114,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3135,11 +3135,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3156,11 +3156,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3177,11 +3177,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3231,11 +3231,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3252,11 +3252,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3273,11 +3273,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3294,11 +3294,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3315,11 +3315,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3336,11 +3336,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3357,11 +3357,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3378,11 +3378,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 1 Ganha!!!!");
+                        MessageBox.Show("Jogador 1 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 1 win!!!!");
+                        MessageBox.Show("Player 1 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3427,11 +3427,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3448,11 +3448,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3469,11 +3469,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3490,11 +3490,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3511,11 +3511,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3532,11 +3532,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3553,11 +3553,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
@@ -3574,11 +3574,11 @@ namespace Jogo_galo
                     button9.Enabled = false;
                     if (ling == 0)
                     {
-                        MessageBox.Show("Jogador 2 Ganha!!!!");
+                        MessageBox.Show("Jogador 2 Ganha!!!!", "vencedor");
                     }
                     else if (ling == 1)
                     {
-                        MessageBox.Show("Player 2 win!!!!");
+                        MessageBox.Show("Player 2 win!!!!", "Winner");
                     }
                     venc = 1;
                 }
