@@ -219,7 +219,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!","Empate");
                 }
             }
             else if (jog == 1)
@@ -415,7 +415,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
         }
@@ -616,7 +616,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!","Empate");
                 }
             }
             else if (jog == 1)
@@ -812,7 +812,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!","Empate");
                 }
             }
         }
@@ -1013,7 +1013,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
             else if (jog == 1)
@@ -1209,7 +1209,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
         }
@@ -1410,7 +1410,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
             else if (jog == 1)
@@ -1606,7 +1606,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
         }
@@ -1807,7 +1807,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
             else if (jog == 1)
@@ -2004,7 +2004,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
         }
@@ -2205,7 +2205,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
             else if (jog == 1)
@@ -2401,7 +2401,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
         }
@@ -2602,7 +2602,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
             else if (jog == 1)
@@ -2799,7 +2799,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
         }
@@ -3000,7 +3000,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
             else if (jog == 1)
@@ -3196,7 +3196,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
         }
@@ -3397,7 +3397,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
             else if (jog == 1)
@@ -3593,7 +3593,7 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!");
+                    MessageBox.Show("Empate!!!!", "Empate");
                 }
             }
         }
