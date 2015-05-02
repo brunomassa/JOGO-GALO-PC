@@ -298,5 +298,17 @@ namespace Jogo_galo.Properties {
                 this["contjog"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int sling {
+            get {
+                return ((int)(this["sling"]));
+            }
+            set {
+                this["sling"] = value;
+            }
+        }
     }
 }

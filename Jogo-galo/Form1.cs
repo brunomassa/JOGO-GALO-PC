@@ -3783,6 +3783,7 @@ namespace Jogo_galo
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = cont;
+                        Settings.Default["sling"] = ling;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -3811,6 +3812,7 @@ namespace Jogo_galo
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = 0;
+                        Settings.Default["sling"] = ling;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -3854,6 +3856,7 @@ namespace Jogo_galo
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = cont;
+                        Settings.Default["sling"] = ling;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -3882,6 +3885,7 @@ namespace Jogo_galo
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = 0;
+                        Settings.Default["sling"] = ling;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -3982,6 +3986,69 @@ namespace Jogo_galo
             venc = Settings.Default.svenc;
             jog = Settings.Default.sjog;
             cont = Settings.Default.contjog;
+            ling = Settings.Default.sling;
+            if (ling == 0)
+            {
+                jogoToolStripMenuItem.Text = "Jogo";
+                novoJogoToolStripMenuItem.Text = "Novo jogo";
+                riniciarToolStripMenuItem.Text = "riniciar";
+                sairToolStripMenuItem.Text = "Sair";
+                temasToolStripMenuItem.Text = "Temas";
+                fundoToolStripMenuItem.Text = "Fundo";
+                tabuleiroToolStripMenuItem.Text = "Tabuleiro";
+                azulToolStripMenuItem.Text = "Azul";
+                azulToolStripMenuItem1.Text = "Azul";
+                brancoToolStripMenuItem.Text = "Preto";
+                brancoToolStripMenuItem1.Text = "Branco";
+                verdeToolStripMenuItem.Text = "Verde";
+                verdeToolStripMenuItem1.Text = "Verde";
+                amareloToolStripMenuItem.Text = "Amarelo";
+                amareloToolStripMenuItem1.Text = "Amarelo";
+                laranjaToolStripMenuItem.Text = "LaranJa";
+                laranjaToolStripMenuItem1.Text = "Laranja";
+                rosaToolStripMenuItem.Text = "Rosa";
+                rosaToolStripMenuItem1.Text = "Rosa";
+                originalToolStripMenuItem.Text = "Original";
+                originalToolStripMenuItem1.Text = "Original";
+                linguagensToolStripMenuItem.Text = "Linguagem";
+                portuguêsToolStripMenuItem.Text = "Português";
+                inglêsToolStripMenuItem.Text = "Inglês";
+                contraHumanoToolStripMenuItem.Text = "Contra Humanos";
+                label4.Text = "Jogo do galo v 5.1.1 LP";
+                inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
+                portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
+            }
+            else if (ling == 1)
+            {
+                jogoToolStripMenuItem.Text = "Game";
+                novoJogoToolStripMenuItem.Text = "New game";
+                riniciarToolStripMenuItem.Text = "Restart";
+                sairToolStripMenuItem.Text = "Exit";
+                temasToolStripMenuItem.Text = "Themes";
+                fundoToolStripMenuItem.Text = "Background";
+                tabuleiroToolStripMenuItem.Text = "Board";
+                azulToolStripMenuItem.Text = "Blue";
+                azulToolStripMenuItem1.Text = "Blue";
+                brancoToolStripMenuItem.Text = "Black";
+                brancoToolStripMenuItem1.Text = "Black";
+                verdeToolStripMenuItem.Text = "Green";
+                verdeToolStripMenuItem1.Text = "Green";
+                amareloToolStripMenuItem.Text = "Yellow";
+                amareloToolStripMenuItem1.Text = "Yellow";
+                laranjaToolStripMenuItem.Text = "Orange";
+                laranjaToolStripMenuItem1.Text = "Orange";
+                rosaToolStripMenuItem.Text = "Pink";
+                rosaToolStripMenuItem1.Text = "Pink";
+                originalToolStripMenuItem.Text = "Original";
+                originalToolStripMenuItem1.Text = "Original";
+                linguagensToolStripMenuItem.Text = "Language";
+                portuguêsToolStripMenuItem.Text = "Portugese";
+                inglêsToolStripMenuItem.Text = "English";
+                contraHumanoToolStripMenuItem.Text = "VS Humans";
+                label4.Text = "TicTac Toe V 5.1.1 LP";
+                inglêsToolStripMenuItem.CheckState = CheckState.Checked;
+                portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
+            }
             if (jog == 0)
             {
                 if (ling == 0)
@@ -4436,7 +4503,7 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Português";
             inglêsToolStripMenuItem.Text = "Inglês";
             contraHumanoToolStripMenuItem.Text = "Contra Humanos";
-            label4.Text = "Jogo do galo v 5.0.2 LP";
+            label4.Text = "Jogo do galo v 5.1.1 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
             ling = 0;
@@ -4478,7 +4545,7 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Portugese";
             inglêsToolStripMenuItem.Text = "English";
             contraHumanoToolStripMenuItem.Text = "VS Humans";
-            label4.Text = "TicTac Toe V 5.0.2 LP";
+            label4.Text = "TicTac Toe V 5.1.1 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Checked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             ling = 1;
@@ -4538,6 +4605,7 @@ namespace Jogo_galo
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = cont;
+                        Settings.Default["sling"] = ling;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4566,6 +4634,7 @@ namespace Jogo_galo
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = cont;
+                        Settings.Default["sling"] = ling;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4609,6 +4678,7 @@ namespace Jogo_galo
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = cont;
+                        Settings.Default["sling"] = ling;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4637,6 +4707,7 @@ namespace Jogo_galo
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = cont;
+                        Settings.Default["sling"] = ling;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4712,6 +4783,20 @@ namespace Jogo_galo
             else if (ling == 1)
             {
                 MessageBox.Show("Version 5.0/5.0.2\n- 100% of taduction\n-New Design\n-Game save the picked out theme\n :)\n", "changelog");
+            }
+        }
+
+        private void v51511ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //changelog da versão 5.1/5.1.1
+
+            if (ling == 0)
+            {
+                MessageBox.Show("Versão 5.1/5.1.1\n- Correcão de alguns bugs\n- Jogo guarda a linguagem escolhida\n :)\n", "changelog");
+            }
+            else if (ling == 1)
+            {
+                MessageBox.Show("Version 5.1/5.1.1\n- Correction of bugs\n- Game save the picked out Language\n :)\n", "changelog");
             }
         }
     }
