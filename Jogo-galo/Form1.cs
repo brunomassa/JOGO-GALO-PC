@@ -3655,6 +3655,7 @@ namespace Jogo_galo
                         Settings.Default["btn9e"] = button9.Enabled.ToString();
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
+                        Settings.Default["contjog"] = cont;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -3682,6 +3683,7 @@ namespace Jogo_galo
                         Settings.Default["btn9e"] = "";
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
+                        Settings.Default["contjog"] = 0;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -3700,7 +3702,62 @@ namespace Jogo_galo
                 MessageBoxManager.Unregister();
                 if (saida == DialogResult.OK)
                 {
-                    Application.Exit();
+                    if (venc == 0)
+                    {
+                        Settings.Default["btn1"] = button1.Text;
+                        Settings.Default["btn2"] = button2.Text;
+                        Settings.Default["btn3"] = button3.Text;
+                        Settings.Default["btn4"] = button4.Text;
+                        Settings.Default["btn5"] = button5.Text;
+                        Settings.Default["btn6"] = button6.Text;
+                        Settings.Default["btn7"] = button7.Text;
+                        Settings.Default["btn8"] = button8.Text;
+                        Settings.Default["btn9"] = button9.Text;
+                        Settings.Default["svenc"] = venc;
+                        Settings.Default["sjog"] = jog;
+                        Settings.Default["btn1e"] = button1.Enabled.ToString();
+                        Settings.Default["btn2e"] = button2.Enabled.ToString();
+                        Settings.Default["btn3e"] = button3.Enabled.ToString();
+                        Settings.Default["btn4e"] = button4.Enabled.ToString();
+                        Settings.Default["btn5e"] = button5.Enabled.ToString();
+                        Settings.Default["btn6e"] = button6.Enabled.ToString();
+                        Settings.Default["btn7e"] = button7.Enabled.ToString();
+                        Settings.Default["btn8e"] = button8.Enabled.ToString();
+                        Settings.Default["btn9e"] = button9.Enabled.ToString();
+                        Settings.Default["thf"] = temaf;
+                        Settings.Default["tht"] = temat;
+                        Settings.Default["contjog"] = cont;
+                        Settings.Default.Save();
+                        Application.Exit();
+                    }
+                    else if (venc == 1)
+                    {
+                        Settings.Default["btn1"] = "";
+                        Settings.Default["btn2"] = "";
+                        Settings.Default["btn3"] = "";
+                        Settings.Default["btn4"] = "";
+                        Settings.Default["btn5"] = "";
+                        Settings.Default["btn6"] = "";
+                        Settings.Default["btn7"] = "";
+                        Settings.Default["btn8"] = "";
+                        Settings.Default["btn9"] = "";
+                        Settings.Default["svenc"] = 0;
+                        Settings.Default["sjog"] = jog;
+                        Settings.Default["btn1e"] = "";
+                        Settings.Default["btn2e"] = "";
+                        Settings.Default["btn3e"] = "";
+                        Settings.Default["btn4e"] = "";
+                        Settings.Default["btn5e"] = "";
+                        Settings.Default["btn6e"] = "";
+                        Settings.Default["btn7e"] = "";
+                        Settings.Default["btn8e"] = "";
+                        Settings.Default["btn9e"] = "";
+                        Settings.Default["thf"] = temaf;
+                        Settings.Default["tht"] = temat;
+                        Settings.Default["contjog"] = 0;
+                        Settings.Default.Save();
+                        Application.Exit();
+                    }
                 }
                 else
                 {
@@ -3797,6 +3854,7 @@ namespace Jogo_galo
             }
             venc = Settings.Default.svenc;
             jog = Settings.Default.sjog;
+            cont = Settings.Default.contjog;
             if (jog == 0)
             {
                 if (ling == 0)
@@ -4352,6 +4410,7 @@ namespace Jogo_galo
                         Settings.Default["btn9e"] = button9.Enabled.ToString();
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
+                        Settings.Default["contjog"] = cont;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4379,6 +4438,7 @@ namespace Jogo_galo
                         Settings.Default["btn9e"] = "";
                         Settings.Default["thf"] = temaf;
                         Settings.Default["tht"] = temat;
+                        Settings.Default["contjog"] = cont;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4397,7 +4457,62 @@ namespace Jogo_galo
                 MessageBoxManager.Unregister();
                 if (saida == DialogResult.OK)
                 {
-                    Application.Exit();
+                    if (venc == 0)
+                    {
+                        Settings.Default["btn1"] = button1.Text;
+                        Settings.Default["btn2"] = button2.Text;
+                        Settings.Default["btn3"] = button3.Text;
+                        Settings.Default["btn4"] = button4.Text;
+                        Settings.Default["btn5"] = button5.Text;
+                        Settings.Default["btn6"] = button6.Text;
+                        Settings.Default["btn7"] = button7.Text;
+                        Settings.Default["btn8"] = button8.Text;
+                        Settings.Default["btn9"] = button9.Text;
+                        Settings.Default["svenc"] = venc;
+                        Settings.Default["sjog"] = jog;
+                        Settings.Default["btn1e"] = button1.Enabled.ToString();
+                        Settings.Default["btn2e"] = button2.Enabled.ToString();
+                        Settings.Default["btn3e"] = button3.Enabled.ToString();
+                        Settings.Default["btn4e"] = button4.Enabled.ToString();
+                        Settings.Default["btn5e"] = button5.Enabled.ToString();
+                        Settings.Default["btn6e"] = button6.Enabled.ToString();
+                        Settings.Default["btn7e"] = button7.Enabled.ToString();
+                        Settings.Default["btn8e"] = button8.Enabled.ToString();
+                        Settings.Default["btn9e"] = button9.Enabled.ToString();
+                        Settings.Default["thf"] = temaf;
+                        Settings.Default["tht"] = temat;
+                        Settings.Default["contjog"] = cont;
+                        Settings.Default.Save();
+                        Application.Exit();
+                    }
+                    else if (venc == 1)
+                    {
+                        Settings.Default["btn1"] = "";
+                        Settings.Default["btn2"] = "";
+                        Settings.Default["btn3"] = "";
+                        Settings.Default["btn4"] = "";
+                        Settings.Default["btn5"] = "";
+                        Settings.Default["btn6"] = "";
+                        Settings.Default["btn7"] = "";
+                        Settings.Default["btn8"] = "";
+                        Settings.Default["btn9"] = "";
+                        Settings.Default["svenc"] = 0;
+                        Settings.Default["sjog"] = jog;
+                        Settings.Default["btn1e"] = "";
+                        Settings.Default["btn2e"] = "";
+                        Settings.Default["btn3e"] = "";
+                        Settings.Default["btn4e"] = "";
+                        Settings.Default["btn5e"] = "";
+                        Settings.Default["btn6e"] = "";
+                        Settings.Default["btn7e"] = "";
+                        Settings.Default["btn8e"] = "";
+                        Settings.Default["btn9e"] = "";
+                        Settings.Default["thf"] = temaf;
+                        Settings.Default["tht"] = temat;
+                        Settings.Default["contjog"] = cont;
+                        Settings.Default.Save();
+                        Application.Exit();
+                    }
                 }
                 else
                 {
