@@ -219,7 +219,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!","Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
             else if (jog == 1)
@@ -415,7 +422,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
         }
@@ -616,7 +630,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!","Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
             else if (jog == 1)
@@ -812,7 +833,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!","Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
         }
@@ -1013,7 +1041,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
             else if (jog == 1)
@@ -1209,7 +1244,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
         }
@@ -1410,7 +1452,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
             else if (jog == 1)
@@ -1606,7 +1655,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
         }
@@ -1807,7 +1863,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
             else if (jog == 1)
@@ -2004,7 +2067,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
         }
@@ -2205,7 +2275,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
             else if (jog == 1)
@@ -2401,7 +2478,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
         }
@@ -2602,7 +2686,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
             else if (jog == 1)
@@ -2799,7 +2890,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
         }
@@ -3000,7 +3098,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
             else if (jog == 1)
@@ -3196,7 +3301,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
         }
@@ -3397,7 +3509,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
             else if (jog == 1)
@@ -3593,7 +3712,14 @@ namespace Jogo_galo
                     button7.Enabled = false;
                     button8.Enabled = false;
                     button9.Enabled = false;
-                    MessageBox.Show("Empate!!!!", "Empate");
+                    if (ling == 0)
+                    {
+                        MessageBox.Show("Empate!!!!", "Empate");
+                    }
+                    else if (ling == 1)
+                    {
+                        MessageBox.Show("Draw!!!!!", "Draw");
+                    }
                 }
             }
         }
