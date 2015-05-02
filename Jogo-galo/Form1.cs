@@ -3621,6 +3621,7 @@ namespace Jogo_galo
             button8.Enabled = true;
             button9.Enabled = true;
             cont = 0;
+            venc = 0;
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
