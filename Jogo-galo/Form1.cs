@@ -25,6 +25,14 @@ namespace Jogo_galo
         int temaf = 0;
         //variavél de tema tabuleiro
         int temat = 0;
+        // variavél segundos
+        int sec=0;
+        // variavél minutos
+        int min=0;
+        // variavél nome do jogador 1
+        string jogador1;
+        // variavél nome do jogador 2
+        string jogador2;
         public Form1()
         {
             InitializeComponent();
@@ -33,6 +41,11 @@ namespace Jogo_galo
         private void button1_Click(object sender, EventArgs e)
         {
             //butao casa numro 1
+            jogador1 = textBox1.Text;
+            jogador2 = textBox2.Text;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+            
             if (jog == 0)
             {
                 if (ling == 0)
@@ -437,6 +450,11 @@ namespace Jogo_galo
         private void button2_Click(object sender, EventArgs e)
         {
             //butao casa numero 2
+            jogador1 = textBox1.Text;
+            jogador2 = textBox2.Text;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+
             if (jog == 0)
             {
                 if (ling == 0)
@@ -848,6 +866,11 @@ namespace Jogo_galo
         private void button3_Click(object sender, EventArgs e)
         {
             //butao casa numero 3
+            jogador1 = textBox1.Text;
+            jogador2 = textBox2.Text;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+
             if (jog == 0)
             {
                 if (ling == 0)
@@ -1259,6 +1282,11 @@ namespace Jogo_galo
         private void button4_Click(object sender, EventArgs e)
         {
             //butao casa numero 4
+            jogador1 = textBox1.Text;
+            jogador2 = textBox2.Text;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+
             if (jog == 0)
             {
                 if (ling == 0)
@@ -1670,6 +1698,11 @@ namespace Jogo_galo
         private void button5_Click(object sender, EventArgs e)
         {
             //butao casa numero 5
+            jogador1 = textBox1.Text;
+            jogador2 = textBox2.Text;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+
             if (jog == 0)
             {
                 if (ling == 0)
@@ -2082,6 +2115,11 @@ namespace Jogo_galo
         private void button6_Click(object sender, EventArgs e)
         {
             //butao casa numero 6
+            jogador1 = textBox1.Text;
+            jogador2 = textBox2.Text;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+
             if (jog == 0)
             {
                 if (ling == 0)
@@ -2493,6 +2531,11 @@ namespace Jogo_galo
         private void button7_Click(object sender, EventArgs e)
         {
             //butao casa numero 7
+            jogador1 = textBox1.Text;
+            jogador2 = textBox2.Text;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+
             if (jog == 0)
             {
                 if (ling == 0)
@@ -2905,6 +2948,11 @@ namespace Jogo_galo
         private void button8_Click(object sender, EventArgs e)
         {
             //butao casa numero 8
+            jogador1 = textBox1.Text;
+            jogador2 = textBox2.Text;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+
             if (jog == 0)
             {
                 if (ling == 0)
@@ -3316,6 +3364,11 @@ namespace Jogo_galo
         private void button9_Click(object sender, EventArgs e)
         {
             //butao casa numero 9
+            jogador1 = textBox1.Text;
+            jogador2 = textBox2.Text;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+
             if (jog == 0)
             {
                 if (ling == 0)
@@ -4797,6 +4850,19 @@ namespace Jogo_galo
             else if (ling == 1)
             {
                 MessageBox.Show("Version 5.1/5.1.1\n- Correction of bugs\n- Game save the picked out Language\n :)\n", "changelog");
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            sec = sec + 1;
+            label8.Text = Convert.ToString(sec);
+            if (sec == 60)
+            {
+                sec = 0;
+                label8.Text = Convert.ToString(sec);
+                min = min + 1;
+                label6.Text = Convert.ToString(min);
             }
         }
     }
