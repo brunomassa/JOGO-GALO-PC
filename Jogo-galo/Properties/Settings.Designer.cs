@@ -310,5 +310,53 @@ namespace Jogo_galo.Properties {
                 this["sling"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string nomjog1 {
+            get {
+                return ((string)(this["nomjog1"]));
+            }
+            set {
+                this["nomjog1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string nomjog2 {
+            get {
+                return ((string)(this["nomjog2"]));
+            }
+            set {
+                this["nomjog2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string tb1e {
+            get {
+                return ((string)(this["tb1e"]));
+            }
+            set {
+                this["tb1e"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string tb2e {
+            get {
+                return ((string)(this["tb2e"]));
+            }
+            set {
+                this["tb2e"] = value;
+            }
+        }
     }
 }
