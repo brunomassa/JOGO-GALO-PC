@@ -61,11 +61,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 2 é a sua vez";
+                    label1.Text = jogador2+" é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 2 its your turn";
+                    label1.Text = jogador2 + " its your turn";
                 }
                 button1.Text = "O";
                 button1.Enabled = false;
@@ -257,11 +257,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 1 é a sua vez";
+                    label1.Text = jogador1 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 1 its your turn";
+                    label1.Text = jogador1 + " its your turn";
                 }
                 button1.Text = "X";
                 button1.Enabled = false;
@@ -481,11 +481,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 2 é a sua vez";
+                    label1.Text = jogador2 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 2 its your turn";
+                    label1.Text = jogador2 + " its your turn";
                 }
                 button2.Text = "O";
                 button2.Enabled = false;
@@ -684,11 +684,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 1 é a sua vez";
+                    label1.Text = jogador1 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 1 its your turn";
+                    label1.Text = jogador1 + " its your turn";
                 }
                 button2.Text = "X";
                 button2.Enabled = false;
@@ -908,11 +908,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 2 é a sua vez";
+                    label1.Text = jogador2 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 2 its your turn";
+                    label1.Text = jogador2 + " its your turn";
                 }
                 button3.Text = "O";
                 button3.Enabled = false;
@@ -1111,11 +1111,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 1 é a sua vez";
+                    label1.Text = jogador1 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 1 its your turn";
+                    label1.Text = jogador1 + " its your turn";
                 }
                 button3.Text = "X";
                 button3.Enabled = false;
@@ -1335,11 +1335,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 2 é a sua vez";
+                    label1.Text = jogador2 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 2 its your turn";
+                    label1.Text = jogador2 + " its your turn";
                 }
                 button4.Text = "O";
                 button4.Enabled = false;
@@ -1538,11 +1538,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 1 é a sua vez";
+                    label1.Text = jogador1 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 1 its your turn";
+                    label1.Text = jogador1 + " its your turn";
                 }
                 button4.Text = "X";
                 button4.Enabled = false;
@@ -1762,11 +1762,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 2 é a sua vez";
+                    label1.Text = jogador2 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 2 its your turn";
+                    label1.Text = jogador2 + " its your turn";
                 }
                 button5.Text = "O";
                 button5.Enabled = false;
@@ -1965,11 +1965,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 1 é a sua vez";
+                    label1.Text = jogador1 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 1 its your turn";
+                    label1.Text = jogador1 + " its your turn";
                 }
                 button5.Text = "X";
                 button5.Enabled = false;
@@ -2190,11 +2190,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 2 é a sua vez";
+                    label1.Text = jogador2 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 2 its your turn";
+                    label1.Text = jogador2 + " its your turn";
                 }
                 button6.Text = "O";
                 button6.Enabled = false;
@@ -2393,11 +2393,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 1 é a sua vez";
+                    label1.Text = jogador1 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 1 its your turn";
+                    label1.Text = jogador1 + " its your turn";
                 }
                 button6.Text = "X";
                 button6.Enabled = false;
@@ -2617,11 +2617,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 2 é a sua vez";
+                    label1.Text = jogador2 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 2 its your turn";
+                    label1.Text = jogador2 + " its your turn";
                 }
                 button7.Text = "O";
                 button7.Enabled = false;
@@ -2820,11 +2820,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 1 é a sua vez";
+                    label1.Text = jogador1 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 1 its your turn";
+                    label1.Text = jogador1 + " its your turn";
                 }
                 
                 button7.Text = "X";
@@ -3045,11 +3045,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 2 é a sua vez";
+                    label1.Text = jogador2 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 2 its your turn";
+                    label1.Text = jogador2 + " its your turn";
                 }
                 button8.Text = "O";
                 button8.Enabled = false;
@@ -3248,11 +3248,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 1 é a sua vez";
+                    label1.Text = jogador1 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 1 its your turn";
+                    label1.Text = jogador1 + " its your turn";
                 }
                 button8.Text = "X";
                 button8.Enabled = false;
@@ -3472,11 +3472,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 2 é a sua vez";
+                    label1.Text = jogador2 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 2 its your turn";
+                    label1.Text = jogador2 + " its your turn";
                 }
                 button9.Text = "O";
                 button9.Enabled = false;
@@ -3675,11 +3675,11 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 1 é a sua vez";
+                    label1.Text = jogador1 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 1 its your turn";
+                    label1.Text = jogador1 + " its your turn";
                 }
                 button9.Text = "X";
                 button9.Enabled = false;
@@ -3970,6 +3970,8 @@ namespace Jogo_galo
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = 0;
                         Settings.Default["sling"] = ling;
+                        Settings.Default["nomjog1"] = "jogador1";
+                        Settings.Default["nomjog2"] = "jogador2";
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4043,6 +4045,8 @@ namespace Jogo_galo
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = 0;
                         Settings.Default["sling"] = ling;
+                        Settings.Default["nomjog1"] = "jogador1";
+                        Settings.Default["nomjog2"] = "jogador2";
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4105,6 +4109,8 @@ namespace Jogo_galo
             button9.Text = Settings.Default.btn9;
             textBox1.Text = Settings.Default.nomjog1;
             textBox2.Text = Settings.Default.nomjog2;
+            jogador1 = Settings.Default.nomjog1;
+            jogador2 = Settings.Default.nomjog2;
             //condições para ajustar o jogo ao processo guardado
             if (Settings.Default.tb1e == "False")
             {
@@ -4220,22 +4226,23 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 1 é a sua vez";
+                    
+                    label1.Text = jogador1 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 1 its your turn";
+                    label1.Text = jogador1 + " its your turn";
                 }
             }
             else if (jog == 1)
             {
                 if (ling == 0)
                 {
-                    label1.Text = "Jogador 2 é a sua vez";
+                    label1.Text = jogador2 + " é a sua vez";
                 }
                 else if (ling == 1)
                 {
-                    label1.Text = "Player 2 its your turn";
+                    label1.Text = jogador2 + " its your turn";
                 }
             }
             //tema fundo
@@ -4810,6 +4817,8 @@ namespace Jogo_galo
                         Settings.Default["nomjog2"] = "";
                         Settings.Default["tb1e"] = "";
                         Settings.Default["tb2e"] = "";
+                        Settings.Default["nomjog1"] = "Jogador1";
+                        Settings.Default["nomjog2"] = "Jogador2";
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4891,6 +4900,8 @@ namespace Jogo_galo
                         Settings.Default["nomjog2"] = "";
                         Settings.Default["tb1e"] = "";
                         Settings.Default["tb2e"] = "";
+                        Settings.Default["nomjog1"] = "Jogador1";
+                        Settings.Default["nomjog2"] = "Jogador2";
                         Settings.Default.Save();
                         Application.Exit();
                     }
