@@ -3905,6 +3905,10 @@ namespace Jogo_galo
             button9.Enabled = true;
             cont = 0;
             venc = 0;
+            sec = 0;
+            min = 0;
+            label8.Text = Convert.ToString(sec);
+            label6.Text = Convert.ToString(min);
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
@@ -3941,6 +3945,10 @@ namespace Jogo_galo
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = cont;
                         Settings.Default["sling"] = ling;
+                        Settings.Default["nomjog1"] = jogador1;
+                        Settings.Default["nomjog2"] = jogador2;
+                        Settings.Default["ssec"] = sec;
+                        Settings.Default["smin"] = min;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -3972,6 +3980,8 @@ namespace Jogo_galo
                         Settings.Default["sling"] = ling;
                         Settings.Default["nomjog1"] = "jogador1";
                         Settings.Default["nomjog2"] = "jogador2";
+                        Settings.Default["ssec"] = 0;
+                        Settings.Default["smin"] = 0;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4016,6 +4026,10 @@ namespace Jogo_galo
                         Settings.Default["tht"] = temat;
                         Settings.Default["contjog"] = cont;
                         Settings.Default["sling"] = ling;
+                        Settings.Default["nomjog1"] = jogador1;
+                        Settings.Default["nomjog2"] = jogador2;
+                        Settings.Default["ssec"] = sec;
+                        Settings.Default["smin"] = min;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4047,6 +4061,8 @@ namespace Jogo_galo
                         Settings.Default["sling"] = ling;
                         Settings.Default["nomjog1"] = "jogador1";
                         Settings.Default["nomjog2"] = "jogador2";
+                        Settings.Default["ssec"] = 0;
+                        Settings.Default["smin"] = 0;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4111,6 +4127,10 @@ namespace Jogo_galo
             textBox2.Text = Settings.Default.nomjog2;
             jogador1 = Settings.Default.nomjog1;
             jogador2 = Settings.Default.nomjog2;
+            sec = Settings.Default.ssec;
+            min = Settings.Default.smin;
+            label8.Text = Convert.ToString(sec);
+            label6.Text = Convert.ToString(min);
             //condições para ajustar o jogo ao processo guardado
             if (Settings.Default.tb1e == "False")
             {
@@ -4683,11 +4703,11 @@ namespace Jogo_galo
             ling = 0;
             if (jog == 0)
             {
-                label1.Text = "Jogador 1 é a sua vez";
+                label1.Text = jogador1+" é a sua vez";
             }
             else if (jog == 1)
             {
-                label1.Text = "Jogador 2 é a sua vez";
+                label1.Text = jogador2+" é a sua vez";
             }
         }
 
@@ -4725,11 +4745,11 @@ namespace Jogo_galo
             ling = 1;
             if (jog == 0)
             {
-              label1.Text = "Player 1 its your turn";  
+              label1.Text = jogador1+" its your turn";  
             }
             else if (jog == 1)
             {
-              label1.Text = "Player 2 its your turn";
+              label1.Text = jogador2+" its your turn";
             }
         }
 
@@ -4784,6 +4804,8 @@ namespace Jogo_galo
                         Settings.Default["nomjog2"] = jogador2;
                         Settings.Default["tb1e"] = textBox1.Enabled.ToString();
                         Settings.Default["tb2e"] = textBox2.Enabled.ToString();
+                        Settings.Default["ssec"] = sec;
+                        Settings.Default["smin"] = min;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4819,6 +4841,8 @@ namespace Jogo_galo
                         Settings.Default["tb2e"] = "";
                         Settings.Default["nomjog1"] = "Jogador1";
                         Settings.Default["nomjog2"] = "Jogador2";
+                        Settings.Default["ssec"] = 0;
+                        Settings.Default["smin"] = 0;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4867,6 +4891,8 @@ namespace Jogo_galo
                         Settings.Default["nomjog2"] = jogador2;
                         Settings.Default["tb1e"] = textBox1.Enabled.ToString();
                         Settings.Default["tb2e"] = textBox2.Enabled.ToString();
+                        Settings.Default["ssec"] = sec;
+                        Settings.Default["smin"] = min;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -4902,6 +4928,8 @@ namespace Jogo_galo
                         Settings.Default["tb2e"] = "";
                         Settings.Default["nomjog1"] = "Jogador1";
                         Settings.Default["nomjog2"] = "Jogador2";
+                        Settings.Default["ssec"] = 0;
+                        Settings.Default["smin"] = 0;
                         Settings.Default.Save();
                         Application.Exit();
                     }
@@ -5019,6 +5047,19 @@ namespace Jogo_galo
             else if (ling == 1)
             {
                 MessageBox.Show("Version 5.1.2\n- Correction of bugs\n- now you can put names\n- Added timer(minutes/seconds)\n :)\n", "changelog");
+            }
+        }
+
+        private void v513ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //changelog da versão 5.1.3
+            if (ling == 0)
+            {
+                MessageBox.Show("Versão 5.1.3\n- Correcão de alguns bugs\n- nomes e temporizador também são guardados\n :)\n", "changelog");
+            }
+            else if (ling == 1)
+            {
+                MessageBox.Show("Version 5.1.3\n- Correction of bugs\n- names and timer also are saved\n :)\n", "changelog");
             }
         }
     }

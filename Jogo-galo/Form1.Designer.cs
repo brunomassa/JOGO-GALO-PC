@@ -75,6 +75,7 @@
             this.v40ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.v50502ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.v51511ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.v512ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -89,7 +90,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.v512ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.v513ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -244,7 +245,7 @@
             this.novoJogoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.contraHumanoToolStripMenuItem});
             this.novoJogoToolStripMenuItem.Name = "novoJogoToolStripMenuItem";
-            this.novoJogoToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.novoJogoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.novoJogoToolStripMenuItem.Text = "Novo Jogo";
             // 
             // contraHumanoToolStripMenuItem
@@ -257,14 +258,14 @@
             // riniciarToolStripMenuItem
             // 
             this.riniciarToolStripMenuItem.Name = "riniciarToolStripMenuItem";
-            this.riniciarToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.riniciarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.riniciarToolStripMenuItem.Text = "Reiniciar";
             this.riniciarToolStripMenuItem.Click += new System.EventHandler(this.riniciarToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -435,7 +436,8 @@
             this.v40ToolStripMenuItem,
             this.v50502ToolStripMenuItem,
             this.v51511ToolStripMenuItem,
-            this.v512ToolStripMenuItem});
+            this.v512ToolStripMenuItem,
+            this.v513ToolStripMenuItem});
             this.changelogToolStripMenuItem.Name = "changelogToolStripMenuItem";
             this.changelogToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.changelogToolStripMenuItem.Text = "changelog";
@@ -481,6 +483,13 @@
             this.v51511ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.v51511ToolStripMenuItem.Text = "V 5.1/5.1.1";
             this.v51511ToolStripMenuItem.Click += new System.EventHandler(this.v51511ToolStripMenuItem_Click);
+            // 
+            // v512ToolStripMenuItem
+            // 
+            this.v512ToolStripMenuItem.Name = "v512ToolStripMenuItem";
+            this.v512ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.v512ToolStripMenuItem.Text = "V 5.1.2";
+            this.v512ToolStripMenuItem.Click += new System.EventHandler(this.v512ToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -613,12 +622,12 @@
             this.label11.TabIndex = 26;
             this.label11.Text = "Nome jogador 1";
             // 
-            // v512ToolStripMenuItem
+            // v513ToolStripMenuItem
             // 
-            this.v512ToolStripMenuItem.Name = "v512ToolStripMenuItem";
-            this.v512ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.v512ToolStripMenuItem.Text = "V 5.1.2";
-            this.v512ToolStripMenuItem.Click += new System.EventHandler(this.v512ToolStripMenuItem_Click);
+            this.v513ToolStripMenuItem.Name = "v513ToolStripMenuItem";
+            this.v513ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.v513ToolStripMenuItem.Text = "V 5.1.3";
+            this.v513ToolStripMenuItem.Click += new System.EventHandler(this.v513ToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -734,6 +743,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ToolStripMenuItem v512ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem v513ToolStripMenuItem;
     }
 }
 
