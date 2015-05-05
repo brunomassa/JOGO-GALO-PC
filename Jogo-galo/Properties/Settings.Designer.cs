@@ -313,7 +313,7 @@ namespace Jogo_galo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("jogador1")]
         public string nomjog1 {
             get {
                 return ((string)(this["nomjog1"]));
@@ -325,7 +325,7 @@ namespace Jogo_galo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("jogador2")]
         public string nomjog2 {
             get {
                 return ((string)(this["nomjog2"]));
