@@ -44,6 +44,7 @@ namespace Jogo_galo
             if (textBox1.Text == "")
             {
                 jogador1 = "Jogador1";
+                
             }
             else if (textBox2.Text == "")
             {
@@ -84,10 +85,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                     
@@ -105,10 +108,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -125,10 +130,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -145,10 +152,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -165,10 +174,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -185,10 +196,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -205,10 +218,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -225,10 +240,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -246,10 +263,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -281,10 +300,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -302,10 +323,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -323,10 +346,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -344,10 +369,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -365,10 +392,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -386,10 +415,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -407,10 +438,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -428,10 +461,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -449,10 +484,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -505,10 +542,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -526,10 +565,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -547,10 +588,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -568,10 +611,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -589,10 +634,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -610,10 +657,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -631,10 +680,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -652,10 +703,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -673,10 +726,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -708,10 +763,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -729,10 +786,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -750,10 +809,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -771,10 +832,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -792,10 +855,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -813,10 +878,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -834,10 +901,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -855,10 +924,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -876,10 +947,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -932,10 +1005,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -953,10 +1028,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -974,10 +1051,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -995,10 +1074,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1016,10 +1097,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1037,10 +1120,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1058,10 +1143,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1079,10 +1166,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1100,10 +1189,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -1135,10 +1226,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1156,10 +1249,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1177,10 +1272,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1198,10 +1295,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1219,10 +1318,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1240,10 +1341,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1261,10 +1364,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1282,10 +1387,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1303,10 +1410,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -1359,10 +1468,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1380,10 +1491,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1401,10 +1514,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1422,10 +1537,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1443,10 +1560,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1464,10 +1583,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1485,10 +1606,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1506,10 +1629,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1527,10 +1652,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -1562,10 +1689,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1583,10 +1712,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1604,10 +1735,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1625,10 +1758,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1646,10 +1781,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1667,10 +1804,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1688,10 +1827,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1709,10 +1850,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1730,10 +1873,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -1786,10 +1931,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1807,10 +1954,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1828,10 +1977,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1849,10 +2000,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1870,10 +2023,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1891,10 +2046,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1912,10 +2069,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1933,10 +2092,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -1954,10 +2115,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -1989,10 +2152,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2010,10 +2175,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2031,10 +2198,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2052,10 +2221,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2073,10 +2244,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2094,10 +2267,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2115,10 +2290,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2136,10 +2313,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     
                     venc = 1;
@@ -2158,10 +2337,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -2214,10 +2395,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2235,10 +2418,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2256,10 +2441,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2277,10 +2464,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2298,10 +2487,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2319,10 +2510,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2340,10 +2533,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2361,10 +2556,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2382,10 +2579,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -2417,10 +2616,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2438,10 +2639,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2459,10 +2662,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2480,10 +2685,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2501,10 +2708,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2522,10 +2731,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2543,10 +2754,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2564,10 +2777,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2585,10 +2800,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -2641,10 +2858,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2662,10 +2881,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2683,10 +2904,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2704,10 +2927,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2725,10 +2950,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2746,10 +2973,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2767,10 +2996,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2788,10 +3019,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2809,10 +3042,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -2845,10 +3080,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2866,10 +3103,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2887,10 +3126,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2908,10 +3149,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2929,10 +3172,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2950,10 +3195,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2971,10 +3218,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -2992,10 +3241,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3013,10 +3264,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -3069,10 +3322,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3090,10 +3345,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3111,10 +3368,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3132,10 +3391,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3153,10 +3414,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3174,10 +3437,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3195,10 +3460,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3216,10 +3483,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3237,10 +3506,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -3272,10 +3543,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3293,10 +3566,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3314,10 +3589,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3335,10 +3612,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3356,10 +3635,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3377,10 +3658,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3398,10 +3681,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3419,10 +3704,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3440,10 +3727,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -3496,10 +3785,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1+" Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1+" win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3517,10 +3808,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3538,10 +3831,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3559,10 +3854,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3580,10 +3877,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3601,10 +3900,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3622,10 +3923,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3643,10 +3946,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador1 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador1 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3664,10 +3969,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
@@ -3699,10 +4006,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3720,10 +4029,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3741,10 +4052,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3762,10 +4075,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3783,10 +4098,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3804,10 +4121,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3825,10 +4144,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3846,10 +4167,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show(jogador2 + " Ganha!!!!", "vencedor");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show(jogador2 + " win!!!!", "Winner");
+                        timer1.Enabled = false;
                     }
                     venc = 1;
                 }
@@ -3867,10 +4190,12 @@ namespace Jogo_galo
                     if (ling == 0)
                     {
                         MessageBox.Show("Empate!!!!", "Empate");
+                        timer1.Enabled = false;
                     }
                     else if (ling == 1)
                     {
                         MessageBox.Show("Draw!!!!!", "Draw");
+                        timer1.Enabled = false;
                     }
                 }
             }
