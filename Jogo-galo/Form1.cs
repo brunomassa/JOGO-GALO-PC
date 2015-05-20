@@ -4532,7 +4532,7 @@ namespace Jogo_galo
                 portuguêsToolStripMenuItem.Text = "Português";
                 inglêsToolStripMenuItem.Text = "Inglês";
                 contraHumanoToolStripMenuItem.Text = "Contra Humanos";
-                label4.Text = "Jogo do galo v 5.1.1 LP";
+                label4.Text = "Jogo do galo v 5.1.3 LP";
                 inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
                 portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
             }
@@ -4563,7 +4563,7 @@ namespace Jogo_galo
                 portuguêsToolStripMenuItem.Text = "Portugese";
                 inglêsToolStripMenuItem.Text = "English";
                 contraHumanoToolStripMenuItem.Text = "VS Humans";
-                label4.Text = "TicTac Toe V 5.1.1 LP";
+                label4.Text = "TicTac Toe V 5.1.3 LP";
                 inglêsToolStripMenuItem.CheckState = CheckState.Checked;
                 portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             }
@@ -5022,7 +5022,7 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Português";
             inglêsToolStripMenuItem.Text = "Inglês";
             contraHumanoToolStripMenuItem.Text = "Contra Humanos";
-            label4.Text = "Jogo do galo v 5.1.1 LP";
+            label4.Text = "Jogo do galo v 5.1.3 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
             ling = 0;
@@ -5064,7 +5064,7 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Portugese";
             inglêsToolStripMenuItem.Text = "English";
             contraHumanoToolStripMenuItem.Text = "VS Humans";
-            label4.Text = "TicTac Toe V 5.1.1 LP";
+            label4.Text = "TicTac Toe V 5.1.3 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Checked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             ling = 1;
