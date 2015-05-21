@@ -382,5 +382,17 @@ namespace Jogo_galo.Properties {
                 this["smin"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int ss {
+            get {
+                return ((int)(this["ss"]));
+            }
+            set {
+                this["ss"] = value;
+            }
+        }
     }
 }

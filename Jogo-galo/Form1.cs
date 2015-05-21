@@ -4246,6 +4246,7 @@ namespace Jogo_galo
                 {
                     if (venc == 0)
                     {
+                        Settings.Default["ss"] = 1;
                         Settings.Default["btn1"] = button1.Text;
                         Settings.Default["btn2"] = button2.Text;
                         Settings.Default["btn3"] = button3.Text;
@@ -4279,6 +4280,7 @@ namespace Jogo_galo
                     }
                     else if (venc == 1)
                     {
+                        Settings.Default["ss"] = 0;
                         Settings.Default["btn1"] = "";
                         Settings.Default["btn2"] = "";
                         Settings.Default["btn3"] = "";
@@ -4327,6 +4329,7 @@ namespace Jogo_galo
                 {
                     if (venc == 0)
                     {
+                        Settings.Default["ss"] = 1;
                         Settings.Default["btn1"] = button1.Text;
                         Settings.Default["btn2"] = button2.Text;
                         Settings.Default["btn3"] = button3.Text;
@@ -4360,6 +4363,7 @@ namespace Jogo_galo
                     }
                     else if (venc == 1)
                     {
+                        Settings.Default["ss"] = 0;
                         Settings.Default["btn1"] = "";
                         Settings.Default["btn2"] = "";
                         Settings.Default["btn3"] = "";
@@ -4435,76 +4439,167 @@ namespace Jogo_galo
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            ling = Settings.Default.sling;
             contraHumanoToolStripMenuItem.CheckState = CheckState.Checked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
             originalToolStripMenuItem.CheckState = CheckState.Checked;
             originalToolStripMenuItem1.CheckState = CheckState.Checked;
-            button1.Text = Settings.Default.btn1;
-            button2.Text = Settings.Default.btn2;
-            button3.Text = Settings.Default.btn3;
-            button4.Text = Settings.Default.btn4;
-            button5.Text = Settings.Default.btn5;
-            button6.Text = Settings.Default.btn6;
-            button7.Text = Settings.Default.btn7;
-            button8.Text = Settings.Default.btn8;
-            button9.Text = Settings.Default.btn9;
-            textBox1.Text = Settings.Default.nomjog1;
-            textBox2.Text = Settings.Default.nomjog2;
-            jogador1 = Settings.Default.nomjog1;
-            jogador2 = Settings.Default.nomjog2;
-            sec = Settings.Default.ssec;
-            min = Settings.Default.smin;
-            label8.Text = Convert.ToString(sec);
-            label6.Text = Convert.ToString(min);
-            //condições para ajustar o jogo ao processo guardado
-            if (Settings.Default.tb1e == "False")
+            jogador1 = "jogador 1";
+            jogador2 = "jogador 2";
+            textBox1.Text = jogador1;
+            textBox2.Text = jogador2;
+            if (Settings.Default.ss == 1)
             {
-                textBox1.Enabled = false;
+                if (ling == 0)
+                {
+                    DialogResult jogo = MessageBox.Show("Existe um jogo guardado pretende carregar?", "Jogo do galo", MessageBoxButtons.YesNo);
+                    if (jogo == DialogResult.Yes)
+                    {
+                        button1.Text = Settings.Default.btn1;
+                        button2.Text = Settings.Default.btn2;
+                        button3.Text = Settings.Default.btn3;
+                        button4.Text = Settings.Default.btn4;
+                        button5.Text = Settings.Default.btn5;
+                        button6.Text = Settings.Default.btn6;
+                        button7.Text = Settings.Default.btn7;
+                        button8.Text = Settings.Default.btn8;
+                        button9.Text = Settings.Default.btn9;
+                        textBox1.Text = Settings.Default.nomjog1;
+                        textBox2.Text = Settings.Default.nomjog2;
+                        jogador1 = Settings.Default.nomjog1;
+                        jogador2 = Settings.Default.nomjog2;
+                        sec = Settings.Default.ssec;
+                        min = Settings.Default.smin;
+                        label8.Text = Convert.ToString(sec);
+                        label6.Text = Convert.ToString(min);
+                        //condições para ajustar o jogo ao processo guardado
+                        if (Settings.Default.tb1e == "False")
+                        {
+                            textBox1.Enabled = false;
+                        }
+                        if (Settings.Default.tb2e == "False")
+                        {
+                            textBox2.Enabled = false;
+                        }
+                        if (Settings.Default.btn1e == "False")
+                        {
+                            button1.Enabled = false;
+                        }
+                        if (Settings.Default.btn2e == "False")
+                        {
+                            button2.Enabled = false;
+                        }
+                        if (Settings.Default.btn3e == "False")
+                        {
+                            button3.Enabled = false;
+                        }
+                        if (Settings.Default.btn4e == "False")
+                        {
+                            button4.Enabled = false;
+                        }
+                        if (Settings.Default.btn5e == "False")
+                        {
+                            button5.Enabled = false;
+                        }
+                        if (Settings.Default.btn6e == "False")
+                        {
+                            button6.Enabled = false;
+                        }
+                        if (Settings.Default.btn7e == "False")
+                        {
+                            button7.Enabled = false;
+                        }
+                        if (Settings.Default.btn8e == "False")
+                        {
+                            button8.Enabled = false;
+                        }
+                        if (Settings.Default.btn9e == "False")
+                        {
+                            button9.Enabled = false;
+                        }
+                        venc = Settings.Default.svenc;
+                        jog = Settings.Default.sjog;
+                        cont = Settings.Default.contjog;
+                    }
+                }
+                else if (ling == 1)
+                {
+                    MessageBoxManager.OK = "Yeas";
+                    MessageBoxManager.Cancel = "No";
+                    MessageBoxManager.Register();
+                    DialogResult jogo = MessageBox.Show("You have an saved game do you want to load progress?", "TicTac Toe", MessageBoxButtons.OKCancel);
+                    MessageBoxManager.Unregister();
+                    if (jogo == DialogResult.Yes)
+                    {
+                        button1.Text = Settings.Default.btn1;
+                        button2.Text = Settings.Default.btn2;
+                        button3.Text = Settings.Default.btn3;
+                        button4.Text = Settings.Default.btn4;
+                        button5.Text = Settings.Default.btn5;
+                        button6.Text = Settings.Default.btn6;
+                        button7.Text = Settings.Default.btn7;
+                        button8.Text = Settings.Default.btn8;
+                        button9.Text = Settings.Default.btn9;
+                        textBox1.Text = Settings.Default.nomjog1;
+                        textBox2.Text = Settings.Default.nomjog2;
+                        jogador1 = Settings.Default.nomjog1;
+                        jogador2 = Settings.Default.nomjog2;
+                        sec = Settings.Default.ssec;
+                        min = Settings.Default.smin;
+                        label8.Text = Convert.ToString(sec);
+                        label6.Text = Convert.ToString(min);
+                        //condições para ajustar o jogo ao processo guardado
+                        if (Settings.Default.tb1e == "False")
+                        {
+                            textBox1.Enabled = false;
+                        }
+                        if (Settings.Default.tb2e == "False")
+                        {
+                            textBox2.Enabled = false;
+                        }
+                        if (Settings.Default.btn1e == "False")
+                        {
+                            button1.Enabled = false;
+                        }
+                        if (Settings.Default.btn2e == "False")
+                        {
+                            button2.Enabled = false;
+                        }
+                        if (Settings.Default.btn3e == "False")
+                        {
+                            button3.Enabled = false;
+                        }
+                        if (Settings.Default.btn4e == "False")
+                        {
+                            button4.Enabled = false;
+                        }
+                        if (Settings.Default.btn5e == "False")
+                        {
+                            button5.Enabled = false;
+                        }
+                        if (Settings.Default.btn6e == "False")
+                        {
+                            button6.Enabled = false;
+                        }
+                        if (Settings.Default.btn7e == "False")
+                        {
+                            button7.Enabled = false;
+                        }
+                        if (Settings.Default.btn8e == "False")
+                        {
+                            button8.Enabled = false;
+                        }
+                        if (Settings.Default.btn9e == "False")
+                        {
+                            button9.Enabled = false;
+                        }
+                        venc = Settings.Default.svenc;
+                        jog = Settings.Default.sjog;
+                        cont = Settings.Default.contjog;
+                    }
+                }
             }
-            if (Settings.Default.tb2e == "False")
-            {
-                textBox2.Enabled = false;
-            }
-            if (Settings.Default.btn1e == "False")
-            {
-                button1.Enabled = false;
-            }
-            if (Settings.Default.btn2e == "False")
-            {
-                button2.Enabled = false;
-            }
-            if (Settings.Default.btn3e == "False")
-            {
-                button3.Enabled = false;
-            }
-            if (Settings.Default.btn4e == "False")
-            {
-                button4.Enabled = false;
-            }
-            if (Settings.Default.btn5e == "False")
-            {
-                button5.Enabled = false;
-            }
-            if (Settings.Default.btn6e == "False")
-            {
-                button6.Enabled = false;
-            }
-            if (Settings.Default.btn7e == "False")
-            {
-                button7.Enabled = false;
-            }
-            if (Settings.Default.btn8e == "False")
-            {
-                button8.Enabled = false;
-            }
-            if (Settings.Default.btn9e == "False")
-            {
-                button9.Enabled = false;
-            }
-            venc = Settings.Default.svenc;
-            jog = Settings.Default.sjog;
-            cont = Settings.Default.contjog;
-            ling = Settings.Default.sling;
+            
             if (ling == 0)
             {
                 jogoToolStripMenuItem.Text = "Jogo";
@@ -4532,7 +4627,7 @@ namespace Jogo_galo
                 portuguêsToolStripMenuItem.Text = "Português";
                 inglêsToolStripMenuItem.Text = "Inglês";
                 contraHumanoToolStripMenuItem.Text = "Contra Humanos";
-                label4.Text = "Jogo do galo v 5.1.3 LP";
+                label4.Text = "Jogo do galo v 5.2 LP";
                 inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
                 portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
             }
@@ -4563,7 +4658,7 @@ namespace Jogo_galo
                 portuguêsToolStripMenuItem.Text = "Portugese";
                 inglêsToolStripMenuItem.Text = "English";
                 contraHumanoToolStripMenuItem.Text = "VS Humans";
-                label4.Text = "TicTac Toe V 5.1.3 LP";
+                label4.Text = "TicTac Toe V 5.2 LP";
                 inglêsToolStripMenuItem.CheckState = CheckState.Checked;
                 portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             }
@@ -5022,7 +5117,7 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Português";
             inglêsToolStripMenuItem.Text = "Inglês";
             contraHumanoToolStripMenuItem.Text = "Contra Humanos";
-            label4.Text = "Jogo do galo v 5.1.3 LP";
+            label4.Text = "Jogo do galo v 5.2 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
             ling = 0;
@@ -5064,7 +5159,7 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Portugese";
             inglêsToolStripMenuItem.Text = "English";
             contraHumanoToolStripMenuItem.Text = "VS Humans";
-            label4.Text = "TicTac Toe V 5.1.3 LP";
+            label4.Text = "TicTac Toe V 5.2 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Checked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             ling = 1;
@@ -5101,6 +5196,7 @@ namespace Jogo_galo
                 {
                     if (venc == 0)
                     {
+                        Settings.Default["ss"] = 1;
                         Settings.Default["btn1"] = button1.Text;
                         Settings.Default["btn2"] = button2.Text;
                         Settings.Default["btn3"] = button3.Text;
@@ -5136,6 +5232,7 @@ namespace Jogo_galo
                     }
                     else if (venc == 1)
                     {
+                        Settings.Default["ss"] = 0;
                         Settings.Default["btn1"] = "";
                         Settings.Default["btn2"] = "";
                         Settings.Default["btn3"] = "";
@@ -5188,6 +5285,7 @@ namespace Jogo_galo
                 {
                     if (venc == 0)
                     {
+                        Settings.Default["ss"] = 1;
                         Settings.Default["btn1"] = button1.Text;
                         Settings.Default["btn2"] = button2.Text;
                         Settings.Default["btn3"] = button3.Text;
@@ -5223,6 +5321,7 @@ namespace Jogo_galo
                     }
                     else if (venc == 1)
                     {
+                        Settings.Default["ss"] = 0;
                         Settings.Default["btn1"] = "";
                         Settings.Default["btn2"] = "";
                         Settings.Default["btn3"] = "";
@@ -5385,6 +5484,19 @@ namespace Jogo_galo
             else if (ling == 1)
             {
                 MessageBox.Show("Version 5.1.3\n- Correction of bugs\n- names and timer also are saved\n :)\n", "changelog");
+            }
+        }
+
+        private void v52ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //changelog da versão 5.2
+            if (ling == 0)
+            {
+                MessageBox.Show("Versão 5.2\n- Correcão de alguns bugs\n- jogo agora pergunta se pretende carregar o ultimo jogo guardado\n :)\n", "changelog");
+            }
+            else if (ling == 1)
+            {
+                MessageBox.Show("Version 5.2\n- Correction of bugs\n- game now ask if you want to load the last saved game progress\n :)\n", "changelog");
             }
         }
     }

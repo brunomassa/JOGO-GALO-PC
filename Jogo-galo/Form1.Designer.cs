@@ -91,6 +91,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.v52ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -226,7 +227,7 @@
             this.changelogToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 45);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(261, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(353, 24);
             this.menuStrip1.TabIndex = 13;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -416,14 +417,14 @@
             // portuguêsToolStripMenuItem
             // 
             this.portuguêsToolStripMenuItem.Name = "portuguêsToolStripMenuItem";
-            this.portuguêsToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.portuguêsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.portuguêsToolStripMenuItem.Text = "Português";
             this.portuguêsToolStripMenuItem.Click += new System.EventHandler(this.portuguêsToolStripMenuItem_Click);
             // 
             // inglêsToolStripMenuItem
             // 
             this.inglêsToolStripMenuItem.Name = "inglêsToolStripMenuItem";
-            this.inglêsToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.inglêsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.inglêsToolStripMenuItem.Text = "Inglês";
             this.inglêsToolStripMenuItem.Click += new System.EventHandler(this.inglêsToolStripMenuItem_Click);
             // 
@@ -437,7 +438,8 @@
             this.v50502ToolStripMenuItem,
             this.v51511ToolStripMenuItem,
             this.v512ToolStripMenuItem,
-            this.v513ToolStripMenuItem});
+            this.v513ToolStripMenuItem,
+            this.v52ToolStripMenuItem});
             this.changelogToolStripMenuItem.Name = "changelogToolStripMenuItem";
             this.changelogToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.changelogToolStripMenuItem.Text = "changelog";
@@ -542,9 +544,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(149, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(172, 16);
+            this.label4.Size = new System.Drawing.Size(160, 16);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Jogo do galo V 5.1.3 LP";
+            this.label4.Text = "Jogo do galo V 5.2 LP";
             // 
             // timer1
             // 
@@ -629,6 +631,13 @@
             this.label11.TabIndex = 26;
             this.label11.Text = "Nome jogador 1";
             // 
+            // v52ToolStripMenuItem
+            // 
+            this.v52ToolStripMenuItem.Name = "v52ToolStripMenuItem";
+            this.v52ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.v52ToolStripMenuItem.Text = "V 5.2";
+            this.v52ToolStripMenuItem.Click += new System.EventHandler(this.v52ToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -667,7 +676,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Jogo do galo V 5.1.3 LP";
+            this.Text = "Jogo do galo V 5.2 LP";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -744,6 +753,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ToolStripMenuItem v512ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem v513ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem v52ToolStripMenuItem;
     }
 }
 
