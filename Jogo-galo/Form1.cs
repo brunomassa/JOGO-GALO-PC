@@ -4241,7 +4241,7 @@ namespace Jogo_galo
             //menu opção sair
             if (ling == 0)
             {
-                DialogResult saida = MessageBox.Show("Deseja mesmo sair?", "Sair", MessageBoxButtons.YesNo);
+                DialogResult saida = MessageBox.Show("Deseja mesmo sair?", "Sair", MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
                 if (saida == DialogResult.Yes)
                 {
                     if (venc == 0)
@@ -4323,7 +4323,7 @@ namespace Jogo_galo
                 MessageBoxManager.OK = "Yeas";
                 MessageBoxManager.Cancel = "No";
                 MessageBoxManager.Register();
-                DialogResult saida = MessageBox.Show("Do you want to exit?", "Exit", MessageBoxButtons.OKCancel);
+                DialogResult saida = MessageBox.Show("Do you want to exit?", "Exit", MessageBoxButtons.OKCancel,MessageBoxIcon.Warning);
                 MessageBoxManager.Unregister();
                 if (saida == DialogResult.OK)
                 {
@@ -4452,7 +4452,7 @@ namespace Jogo_galo
             {
                 if (ling == 0)
                 {
-                    DialogResult jogo = MessageBox.Show("Existe um jogo guardado pretende carregar?", "Jogo do galo", MessageBoxButtons.YesNo);
+                    DialogResult jogo = MessageBox.Show("Existe um jogo guardado pretende carregar?", "Jogo do galo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     if (jogo == DialogResult.Yes)
                     {
                         button1.Text = Settings.Default.btn1;
@@ -4527,7 +4527,7 @@ namespace Jogo_galo
                     MessageBoxManager.OK = "Yeas";
                     MessageBoxManager.Cancel = "No";
                     MessageBoxManager.Register();
-                    DialogResult jogo = MessageBox.Show("You have an saved game do you want to load progress?", "TicTac Toe", MessageBoxButtons.OKCancel);
+                    DialogResult jogo = MessageBox.Show("You have an saved game do you want to load progress?", "TicTac Toe", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
                     MessageBoxManager.Unregister();
                     if (jogo == DialogResult.Yes)
                     {
@@ -4630,6 +4630,8 @@ namespace Jogo_galo
                 label4.Text = "Jogo do galo v 5.2 LP";
                 inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
                 portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
+                label11.Text = "Nome jogador1";
+                label10.Text = "Nome jogador2";
             }
             else if (ling == 1)
             {
@@ -4661,6 +4663,8 @@ namespace Jogo_galo
                 label4.Text = "TicTac Toe V 5.2 LP";
                 inglêsToolStripMenuItem.CheckState = CheckState.Checked;
                 portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
+                label11.Text = "Name player1";
+                label10.Text = "Name player2";
             }
             if (jog == 0)
             {
@@ -5120,6 +5124,8 @@ namespace Jogo_galo
             label4.Text = "Jogo do galo v 5.2 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
+            label11.Text = "Nome jogador1";
+            label10.Text = "Nome jogador2";
             ling = 0;
             if (jog == 0)
             {
@@ -5162,6 +5168,8 @@ namespace Jogo_galo
             label4.Text = "TicTac Toe V 5.2 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Checked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
+            label11.Text = "Name player1";
+            label10.Text = "Name player2";
             ling = 1;
             if (jog == 0)
             {
@@ -5178,7 +5186,7 @@ namespace Jogo_galo
             //changelog versão 4.0
             if (ling == 0)
             {
-                MessageBox.Show("Versão 4.0\n-Tradução a 99%\n-Jogo guarda processo se nao ouver vencedor\n :)\n", "changelog");
+                MessageBox.Show("Versão 4.0\n-Tradução a 99%\n-Jogo guarda processo se nao houver vencedor\n :)\n", "changelog");
             }
             else if (ling == 1)
             {
@@ -5191,7 +5199,7 @@ namespace Jogo_galo
             //botão fechar
             if (ling == 0)
             {
-                DialogResult saida = MessageBox.Show("Deseja mesmo sair?", "Sair", MessageBoxButtons.YesNo);
+                DialogResult saida = MessageBox.Show("Deseja mesmo sair?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (saida == DialogResult.Yes)
                 {
                     if (venc == 0)
@@ -5279,7 +5287,7 @@ namespace Jogo_galo
                 MessageBoxManager.OK = "Yeas";
                 MessageBoxManager.Cancel = "No";
                 MessageBoxManager.Register();
-                DialogResult saida = MessageBox.Show("Do you want to exit?", "Exit", MessageBoxButtons.OKCancel);
+                DialogResult saida = MessageBox.Show("Do you want to exit?", "Exit", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
                 MessageBoxManager.Unregister();
                 if (saida == DialogResult.OK)
                 {
