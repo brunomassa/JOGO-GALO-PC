@@ -4658,7 +4658,7 @@ namespace Jogo_galo
                 portuguêsToolStripMenuItem.Text = "Português";
                 inglêsToolStripMenuItem.Text = "Inglês";
                 contraHumanoToolStripMenuItem.Text = "Contra Humanos";
-                label4.Text = "Jogo do galo v 5.2 LP";
+                label4.Text = "Jogo do galo v 5.3 LP";
                 inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
                 portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
                 label11.Text = "Nome jogador1";
@@ -4691,7 +4691,7 @@ namespace Jogo_galo
                 portuguêsToolStripMenuItem.Text = "Portugese";
                 inglêsToolStripMenuItem.Text = "English";
                 contraHumanoToolStripMenuItem.Text = "VS Humans";
-                label4.Text = "TicTac Toe V 5.2 LP";
+                label4.Text = "TicTac Toe V 5.3 LP";
                 inglêsToolStripMenuItem.CheckState = CheckState.Checked;
                 portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
                 label11.Text = "Name player1";
@@ -5152,7 +5152,7 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Português";
             inglêsToolStripMenuItem.Text = "Inglês";
             contraHumanoToolStripMenuItem.Text = "Contra Humanos";
-            label4.Text = "Jogo do galo v 5.2 LP";
+            label4.Text = "Jogo do galo v 5.3 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
             label11.Text = "Nome jogador1";
@@ -5196,7 +5196,7 @@ namespace Jogo_galo
             portuguêsToolStripMenuItem.Text = "Portugese";
             inglêsToolStripMenuItem.Text = "English";
             contraHumanoToolStripMenuItem.Text = "VS Humans";
-            label4.Text = "TicTac Toe V 5.2 LP";
+            label4.Text = "TicTac Toe V 5.3 LP";
             inglêsToolStripMenuItem.CheckState = CheckState.Checked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Unchecked;
             label11.Text = "Name player1";
@@ -5614,6 +5614,19 @@ namespace Jogo_galo
             }
             button11.Enabled = false;
             img2 = 1;
+        }
+
+        private void v53ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //changelog da versão 5.3
+            if (ling == 0)
+            {
+                MessageBox.Show("Versão 5.3\n- Correcão de alguns bugs\n- jogo agora permite escolher imagens para ambos os jogadores (ainda nao guarda as imagens)\n :)\n", "changelog");
+            }
+            else if (ling == 1)
+            {
+                MessageBox.Show("Version 5.3\n- Correction of bugs\n-now you can chose images for players (but not saving images for now)\n :)\n", "changelog");
+            }
         }
     }
 }

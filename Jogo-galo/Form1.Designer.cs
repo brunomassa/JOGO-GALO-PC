@@ -97,6 +97,7 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.v53ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -446,7 +447,8 @@
             this.v51511ToolStripMenuItem,
             this.v512ToolStripMenuItem,
             this.v513ToolStripMenuItem,
-            this.v52ToolStripMenuItem});
+            this.v52ToolStripMenuItem,
+            this.v53ToolStripMenuItem});
             this.changelogToolStripMenuItem.Name = "changelogToolStripMenuItem";
             this.changelogToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.changelogToolStripMenuItem.Text = "changelog";
@@ -454,63 +456,63 @@
             // v10ToolStripMenuItem
             // 
             this.v10ToolStripMenuItem.Name = "v10ToolStripMenuItem";
-            this.v10ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.v10ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.v10ToolStripMenuItem.Text = "V 1.0";
             this.v10ToolStripMenuItem.Click += new System.EventHandler(this.v10ToolStripMenuItem_Click);
             // 
             // vToolStripMenuItem
             // 
             this.vToolStripMenuItem.Name = "vToolStripMenuItem";
-            this.vToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.vToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.vToolStripMenuItem.Text = "V 2.0";
             this.vToolStripMenuItem.Click += new System.EventHandler(this.vToolStripMenuItem_Click);
             // 
             // v30ToolStripMenuItem
             // 
             this.v30ToolStripMenuItem.Name = "v30ToolStripMenuItem";
-            this.v30ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.v30ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.v30ToolStripMenuItem.Text = "V 3.0";
             this.v30ToolStripMenuItem.Click += new System.EventHandler(this.v30ToolStripMenuItem_Click);
             // 
             // v40ToolStripMenuItem
             // 
             this.v40ToolStripMenuItem.Name = "v40ToolStripMenuItem";
-            this.v40ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.v40ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.v40ToolStripMenuItem.Text = "V 4.0";
             this.v40ToolStripMenuItem.Click += new System.EventHandler(this.v40ToolStripMenuItem_Click);
             // 
             // v50502ToolStripMenuItem
             // 
             this.v50502ToolStripMenuItem.Name = "v50502ToolStripMenuItem";
-            this.v50502ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.v50502ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.v50502ToolStripMenuItem.Text = "V 5.0/5.0.2";
             this.v50502ToolStripMenuItem.Click += new System.EventHandler(this.v50502ToolStripMenuItem_Click);
             // 
             // v51511ToolStripMenuItem
             // 
             this.v51511ToolStripMenuItem.Name = "v51511ToolStripMenuItem";
-            this.v51511ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.v51511ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.v51511ToolStripMenuItem.Text = "V 5.1/5.1.1";
             this.v51511ToolStripMenuItem.Click += new System.EventHandler(this.v51511ToolStripMenuItem_Click);
             // 
             // v512ToolStripMenuItem
             // 
             this.v512ToolStripMenuItem.Name = "v512ToolStripMenuItem";
-            this.v512ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.v512ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.v512ToolStripMenuItem.Text = "V 5.1.2";
             this.v512ToolStripMenuItem.Click += new System.EventHandler(this.v512ToolStripMenuItem_Click);
             // 
             // v513ToolStripMenuItem
             // 
             this.v513ToolStripMenuItem.Name = "v513ToolStripMenuItem";
-            this.v513ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.v513ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.v513ToolStripMenuItem.Text = "V 5.1.3";
             this.v513ToolStripMenuItem.Click += new System.EventHandler(this.v513ToolStripMenuItem_Click);
             // 
             // v52ToolStripMenuItem
             // 
             this.v52ToolStripMenuItem.Name = "v52ToolStripMenuItem";
-            this.v52ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.v52ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.v52ToolStripMenuItem.Text = "V 5.2";
             this.v52ToolStripMenuItem.Click += new System.EventHandler(this.v52ToolStripMenuItem_Click);
             // 
@@ -560,7 +562,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(160, 16);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Jogo do galo V 5.2 LP";
+            this.label4.Text = "Jogo do galo V 5.3 LP";
             // 
             // timer1
             // 
@@ -683,6 +685,13 @@
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
+            // v53ToolStripMenuItem
+            // 
+            this.v53ToolStripMenuItem.Name = "v53ToolStripMenuItem";
+            this.v53ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.v53ToolStripMenuItem.Text = "V 5.3";
+            this.v53ToolStripMenuItem.Click += new System.EventHandler(this.v53ToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -726,7 +735,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Jogo do galo V 5.2 LP";
+            this.Text = "Jogo do galo V 5.3 LP";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -810,6 +819,7 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.ToolStripMenuItem v53ToolStripMenuItem;
     }
 }
 
