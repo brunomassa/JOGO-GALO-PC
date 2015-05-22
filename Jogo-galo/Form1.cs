@@ -34,6 +34,9 @@ namespace Jogo_galo
         string jogador1;
         // variavél nome do jogador 2
         string jogador2;
+        //variavel imagens
+        int img1=0;
+        int img2 = 0;
         public Form1()
         {
             InitializeComponent();
@@ -4457,6 +4460,9 @@ namespace Jogo_galo
                     DialogResult jogo = MessageBox.Show("Existe um jogo guardado pretende carregar?", "Jogo do galo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     if (jogo == DialogResult.Yes)
                     {
+                        
+                        pictureBox5.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog1.jpg");
+                        pictureBox6.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog2.jpg");
                         button1.Text = Settings.Default.btn1;
                         button2.Text = Settings.Default.btn2;
                         button3.Text = Settings.Default.btn3;
@@ -4523,8 +4529,11 @@ namespace Jogo_galo
                         jog = Settings.Default.sjog;
                         cont = Settings.Default.contjog;
                     }
-                    pictureBox5.BackgroundImage = Jogo_galo.Properties.Resources.foto;
-                    pictureBox6.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+                    else
+                    {
+                        pictureBox5.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+                        pictureBox6.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+                    }
                 }
                 else if (ling == 1)
                 {
@@ -4535,6 +4544,9 @@ namespace Jogo_galo
                     MessageBoxManager.Unregister();
                     if (jogo == DialogResult.Yes)
                     {
+                        
+                        pictureBox5.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog1.jpg");
+                        pictureBox6.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog2.jpg");
                         button1.Text = Settings.Default.btn1;
                         button2.Text = Settings.Default.btn2;
                         button3.Text = Settings.Default.btn3;
@@ -4601,8 +4613,11 @@ namespace Jogo_galo
                         jog = Settings.Default.sjog;
                         cont = Settings.Default.contjog;
                     }
-                    pictureBox5.BackgroundImage = Jogo_galo.Properties.Resources.foto;
-                    pictureBox6.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+                    else
+                    {
+                        pictureBox5.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+                        pictureBox6.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+                    }
                 }
             }
             
@@ -5210,6 +5225,8 @@ namespace Jogo_galo
                 {
                     if (venc == 0)
                     {
+                        Settings.Default.simg1 = img1;
+                        Settings.Default.simg2 = img2;
                         Settings.Default["ss"] = 1;
                         Settings.Default["btn1"] = button1.Text;
                         Settings.Default["btn2"] = button2.Text;
@@ -5246,6 +5263,8 @@ namespace Jogo_galo
                     }
                     else if (venc == 1)
                     {
+                        Settings.Default.simg1 = 0;
+                        Settings.Default.simg2 = 0;
                         Settings.Default["ss"] = 0;
                         Settings.Default["btn1"] = "";
                         Settings.Default["btn2"] = "";
@@ -5299,6 +5318,8 @@ namespace Jogo_galo
                 {
                     if (venc == 0)
                     {
+                        Settings.Default.simg1 = img1;
+                        Settings.Default.simg2 = img2;
                         Settings.Default["ss"] = 1;
                         Settings.Default["btn1"] = button1.Text;
                         Settings.Default["btn2"] = button2.Text;
@@ -5335,6 +5356,8 @@ namespace Jogo_galo
                     }
                     else if (venc == 1)
                     {
+                        Settings.Default.simg1 = 0;
+                        Settings.Default.simg2 = 0;
                         Settings.Default["ss"] = 0;
                         Settings.Default["btn1"] = "";
                         Settings.Default["btn2"] = "";
@@ -5544,6 +5567,8 @@ namespace Jogo_galo
                     System.IO.File.Copy(dlg.FileName, "C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog1.jpg");
                 }
             }
+            button10.Enabled = false;
+            img1 = 1;
 
         }
 
@@ -5577,6 +5602,8 @@ namespace Jogo_galo
                     System.IO.File.Copy(dlg.FileName, "C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog2.jpg");
                 }
             }
+            button11.Enabled = false;
+            img2 = 1;
         }
     }
 }
