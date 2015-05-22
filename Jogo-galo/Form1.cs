@@ -4439,8 +4439,7 @@ namespace Jogo_galo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            pictureBox5.BackgroundImage = Jogo_galo.Properties.Resources.foto;
-            pictureBox6.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+            
             ling = Settings.Default.sling;
             contraHumanoToolStripMenuItem.CheckState = CheckState.Checked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
@@ -4523,6 +4522,8 @@ namespace Jogo_galo
                         jog = Settings.Default.sjog;
                         cont = Settings.Default.contjog;
                     }
+                    pictureBox5.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+                    pictureBox6.BackgroundImage = Jogo_galo.Properties.Resources.foto;
                 }
                 else if (ling == 1)
                 {
@@ -4599,6 +4600,8 @@ namespace Jogo_galo
                         jog = Settings.Default.sjog;
                         cont = Settings.Default.contjog;
                     }
+                    pictureBox5.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+                    pictureBox6.BackgroundImage = Jogo_galo.Properties.Resources.foto;
                 }
             }
             
