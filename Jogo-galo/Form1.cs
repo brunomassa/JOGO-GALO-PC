@@ -4218,8 +4218,8 @@ namespace Jogo_galo
             button8.Text = "";
             button9.Text = "";
 
-            textBox1.Text = "";
-            textBox2.Text = "";
+            textBox1.Text = "jogador1";
+            textBox2.Text = "jogador2";
             textBox1.Enabled = true;
             textBox2.Enabled = true;
 
@@ -4232,6 +4232,9 @@ namespace Jogo_galo
             button7.Enabled = true;
             button8.Enabled = true;
             button9.Enabled = true;
+            button10.Enabled = true;
+            button11.Enabled = true;
+            
             cont = 0;
             venc = 0;
             sec = 0;
@@ -4250,6 +4253,8 @@ namespace Jogo_galo
                 {
                     if (venc == 0)
                     {
+                        Settings.Default.simg1 = img1;
+                        Settings.Default.simg2 = img2;
                         Settings.Default["ss"] = 1;
                         Settings.Default["btn1"] = button1.Text;
                         Settings.Default["btn2"] = button2.Text;
@@ -4284,6 +4289,8 @@ namespace Jogo_galo
                     }
                     else if (venc == 1)
                     {
+                        Settings.Default.simg1 = 0;
+                        Settings.Default.simg2 = 0;
                         Settings.Default["ss"] = 0;
                         Settings.Default["btn1"] = "";
                         Settings.Default["btn2"] = "";
@@ -4333,6 +4340,8 @@ namespace Jogo_galo
                 {
                     if (venc == 0)
                     {
+                        Settings.Default.simg1 = img1;
+                        Settings.Default.simg2 = img2;
                         Settings.Default["ss"] = 1;
                         Settings.Default["btn1"] = button1.Text;
                         Settings.Default["btn2"] = button2.Text;
@@ -4367,6 +4376,8 @@ namespace Jogo_galo
                     }
                     else if (venc == 1)
                     {
+                        Settings.Default.simg1 = 0;
+                        Settings.Default.simg2 = 0;
                         Settings.Default["ss"] = 0;
                         Settings.Default["btn1"] = "";
                         Settings.Default["btn2"] = "";
@@ -4460,6 +4471,14 @@ namespace Jogo_galo
                     DialogResult jogo = MessageBox.Show("Existe um jogo guardado pretende carregar?", "Jogo do galo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     if (jogo == DialogResult.Yes)
                     {
+                        if (Settings.Default.simg1 == 1)
+                        {
+                            button10.Enabled = false;
+                        }
+                        if (Settings.Default.simg2 == 1)
+                        {
+                            button11.Enabled = false;
+                        }
                         
                         pictureBox5.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog1.jpg");
                         pictureBox6.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog2.jpg");
@@ -4544,6 +4563,14 @@ namespace Jogo_galo
                     MessageBoxManager.Unregister();
                     if (jogo == DialogResult.Yes)
                     {
+                        if (Settings.Default.simg1 == 1)
+                        {
+                            button10.Enabled = false;
+                        }
+                        if (Settings.Default.simg2 == 1)
+                        {
+                            button11.Enabled = false;
+                        }
                         
                         pictureBox5.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog1.jpg");
                         pictureBox6.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog2.jpg");
