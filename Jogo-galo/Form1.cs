@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Jogo_galo.Properties;
+using System.IO;
 
 namespace Jogo_galo
 {
@@ -5517,6 +5518,7 @@ namespace Jogo_galo
         {
             //butao escolher imagem jogador 1
             string localimagem;
+            string jog1;
             OpenFileDialog dlg = new OpenFileDialog();
 
             dlg.Filter = "JPG files(*.jpg)|*.jpg|All Files (*.*)|*.*";
@@ -5527,7 +5529,20 @@ namespace Jogo_galo
                 localimagem = dlg.FileName.ToString();
                 pictureBox5.ImageLocation = localimagem;
                 pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
-
+                if (!Directory.Exists("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens"))
+                {
+                    Directory.CreateDirectory("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens");
+                }
+                jog1 = "C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog1.jpg";
+                if (File.Exists(jog1))
+                {
+                    System.IO.File.Delete(jog1);
+                    System.IO.File.Copy(dlg.FileName, "C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog1.jpg");
+                }
+                else
+                {
+                    System.IO.File.Copy(dlg.FileName, "C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog1.jpg");
+                }
             }
 
         }
@@ -5536,6 +5551,7 @@ namespace Jogo_galo
         {
             //butao escolher imagem jogador 2
             string localimagem;
+            string jog2;
             OpenFileDialog dlg = new OpenFileDialog();
 
             dlg.Filter = "JPG files(*.jpg)|*.jpg|All Files (*.*)|*.*";
@@ -5546,7 +5562,20 @@ namespace Jogo_galo
                 localimagem = dlg.FileName.ToString();
                 pictureBox6.ImageLocation = localimagem;
                 pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
-
+                if (!Directory.Exists("C:/Users/"+System.Security.Principal.WindowsIdentity.GetCurrent().Name+"/Documents/jogogalo/imagens"))
+                {
+                    Directory.CreateDirectory("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens");
+                }
+                jog2 = "C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog2.jpg";
+                if (File.Exists(jog2))
+                {
+                    System.IO.File.Delete(jog2);
+                    System.IO.File.Copy(dlg.FileName, "C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog2.jpg");
+                }
+                else
+                {
+                    System.IO.File.Copy(dlg.FileName, "C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog2.jpg");
+                }
             }
         }
     }
