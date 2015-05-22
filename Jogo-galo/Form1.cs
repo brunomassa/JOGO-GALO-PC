@@ -4471,17 +4471,9 @@ namespace Jogo_galo
                     DialogResult jogo = MessageBox.Show("Existe um jogo guardado pretende carregar?", "Jogo do galo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     if (jogo == DialogResult.Yes)
                     {
-                        if (Settings.Default.simg1 == 1)
-                        {
-                            button10.Enabled = false;
-                        }
-                        if (Settings.Default.simg2 == 1)
-                        {
-                            button11.Enabled = false;
-                        }
-                        
-                        pictureBox5.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog1.jpg");
-                        pictureBox6.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog2.jpg");
+
+                        pictureBox5.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+                        pictureBox6.BackgroundImage = Jogo_galo.Properties.Resources.foto;
                         button1.Text = Settings.Default.btn1;
                         button2.Text = Settings.Default.btn2;
                         button3.Text = Settings.Default.btn3;
@@ -4563,17 +4555,8 @@ namespace Jogo_galo
                     MessageBoxManager.Unregister();
                     if (jogo == DialogResult.Yes)
                     {
-                        if (Settings.Default.simg1 == 1)
-                        {
-                            button10.Enabled = false;
-                        }
-                        if (Settings.Default.simg2 == 1)
-                        {
-                            button11.Enabled = false;
-                        }
-                        
-                        pictureBox5.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog1.jpg");
-                        pictureBox6.BackgroundImage = Image.FromFile("C:/Users/" + System.Security.Principal.WindowsIdentity.GetCurrent().Name + "/Documents/jogogalo/imagens/jog2.jpg");
+                        pictureBox5.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+                        pictureBox6.BackgroundImage = Jogo_galo.Properties.Resources.foto;
                         button1.Text = Settings.Default.btn1;
                         button2.Text = Settings.Default.btn2;
                         button3.Text = Settings.Default.btn3;
