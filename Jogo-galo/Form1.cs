@@ -5512,6 +5512,7 @@ namespace Jogo_galo
 
         private void button10_Click(object sender, EventArgs e)
         {
+            //butao escolher imagem jogador 1
             string localimagem;
             OpenFileDialog dlg = new OpenFileDialog();
 
@@ -5530,6 +5531,7 @@ namespace Jogo_galo
 
         private void button11_Click(object sender, EventArgs e)
         {
+            //butao escolher imagem jogador 2
             string localimagem;
             OpenFileDialog dlg = new OpenFileDialog();
 
