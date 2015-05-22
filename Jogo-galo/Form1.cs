@@ -4439,6 +4439,8 @@ namespace Jogo_galo
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            pictureBox5.BackgroundImage = Jogo_galo.Properties.Resources.foto;
+            pictureBox6.BackgroundImage = Jogo_galo.Properties.Resources.foto;
             ling = Settings.Default.sling;
             contraHumanoToolStripMenuItem.CheckState = CheckState.Checked;
             portuguêsToolStripMenuItem.CheckState = CheckState.Checked;
@@ -5505,6 +5507,41 @@ namespace Jogo_galo
             else if (ling == 1)
             {
                 MessageBox.Show("Version 5.2\n- Correction of bugs\n- game now ask if you want to load the last saved game progress\n :)\n", "changelog");
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            string localimagem;
+            OpenFileDialog dlg = new OpenFileDialog();
+
+            dlg.Filter = "JPG files(*.jpg)|*.jpg|All Files (*.*)|*.*";
+
+
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                localimagem = dlg.FileName.ToString();
+                pictureBox5.ImageLocation = localimagem;
+                pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            }
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            string localimagem;
+            OpenFileDialog dlg = new OpenFileDialog();
+
+            dlg.Filter = "JPG files(*.jpg)|*.jpg|All Files (*.*)|*.*";
+
+
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                localimagem = dlg.FileName.ToString();
+                pictureBox6.ImageLocation = localimagem;
+                pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+
             }
         }
     }
